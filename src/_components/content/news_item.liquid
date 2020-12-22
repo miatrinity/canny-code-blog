@@ -1,0 +1,30 @@
+<article-pill class="block flex flex-col m-8">
+  <a href="{{ post.url }}">
+    <div id="article-card" class="flex flex-col cursor-pointer w-full flex-wrap shadow-cg p-8 rounded-lg hover:shadow-cp transition-shadow duration-200">
+      <div id="article-header" class="flex flex-col justify-between mb-4 w-full">
+        <div id="article-title" class="flex justify-between">
+          <h3 class="text-3xl text-gray-900 mb-3 max-w-3xl inline-block p-0 font-bold">{{ post.title }}</h3>
+        </div>
+        <p id="article-summary" class="text-grey-600">
+          {{ post.summary }}
+        </p>
+      </div>
+      <div id="article-footer" class="flex mt-3 justify-between">
+        <p id="pill" class="border-none py-2 pr-10 pl-3 text-base font-bold relative">
+          <span class="text-pink-700 pl-12">Read article</span>
+        </p>
+        <div>
+          <div>
+            <!-- <div class="show-on-tablet-and-smaller">
+              <small></small>
+              <span>1238 words</span>
+            </div> -->
+            <span class="ml-3 bg-white border border-gray-300 border-solid inline-block py-2 px-4 rounded-pill mr-3 text-base text-gray-500">
+              ~8 minute read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</article-pill>

@@ -2,6 +2,66 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="lg:container py-0 px-8 mx-auto">
+  <section class="grid items-stretch post gap-20 my-12 mx-0">
+    <article>
+      <header class="pt-0 mb-12" id="article-header">
+        <div class="lg:container py-0 px-8 mx-auto">
+          <div class="flex items-center flex-row">
+            <h1 class="text-5xl font-bold m-0 inline-block leading-tight text-gray-800">{{ page.title }}</h1>
+          </div>
+        </div>
+      </header>
+      
+      {{ content }}
+    </article>
+    <aside>
+      <div class="bg-gray-100 p-6 rounded">
+        <section>
+          <img src="/images/miatrinity.jpeg/" class="max-w-180 block circle mt-0 mx-auto mb-6 h-auto" alt="logo">
+          <p class="text-sm mb-6"><b>tldr&;</b> this is a short summary of what is the article about, or just any musings. could be ommited all together.</p>
+          <p class="text-sm mb-6">this is the <b>this is some random bold text</b> paragraph of the summary, that also can be a little intro about <b>CCCC</b> or us.</p>
+        </section>
+        <section class="mt-10">
+          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Content</h3>
+          <nav>
+            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ This is the first section</a>
+            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ And this is a subsection</a>
+            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ You should definitely check out this part</a>
+            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ Wow! Lotz of goodies here!</a>
+            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ How about this? Cats chewing on green sausages. Yack!</a>
+          </nav>
+        </section>
+        <section class="mt-10">
+          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Tags</h3>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-gray-600 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-gray-300 ">Javascript</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-red-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-red-300 ">Ruby</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-orange-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-orange-300 ">GitHub</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-yellow-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-yellow-300 ">Creative coding</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-green-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-green-300 ">Burn out</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-teal-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-teal-300 ">Thinking proc</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-blue-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-blue-300 ">Chewing habs</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-indigo-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-indigo-300 ">Time2go</div>
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-purple-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-purple-300 ">What is this</div>
+        </section>
+        <section class="mt-10">
+          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Ways to be touch</h3>
+          <nav class="text">
+            <a href="#" class="block py-1 my-1 font-semibold text-gray-700"><span class="mr-2">✉️</span> Newsletter</a>
+            <a href="#" class="block py-1 my-1 font-semibold text-gray-700">
+              <svg class="h-6 w-6 mr-2 inline-block" fill="#1DA1F2" viewBox="0 0 24 24">
+                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+              </svg>Twitter</a>
+          </nav>
+        </section>
+      </div>
+    </aside>
+  </section>
+  <nav class="flex flex-row items-stretch -my-4 p-0 lg:container">
+    <a href="#"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">This is a link to the orevious post</a>  
+    <a href="#" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Yet an other link to the next post</a>  
+  </nav>
+</div>
 
-{{ content }}
+<!-- 
+{{ content }} -->

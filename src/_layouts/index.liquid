@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<main class="flex justify-center flex-grow mt-8 mx-auto max-w-screen-lg px-4 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 xl:mt-8">
+  <div id="articles-container" class="flex flex-col justify-start w-full">
+    <h3 class="border-t-4 border-solid border-black text-2xl pt-1 mb-8">Latest articles</h3>
+    
+    {% for post in site.posts limit:4 %}
+      {% render "content/news_item", post: post, authors: site.data.authors %}
+    {% endfor %}
+  </div>
+</main>
