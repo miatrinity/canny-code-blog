@@ -4,13 +4,20 @@ title:  "Your First Post on Bridgetown"
 date:   2020-12-21 10:39:23 +0100
 categories: updates
 subtitle: "This is the subtitle"
-summary: "This is the summary"
+summary: "This works! YAYY! Unicorns & Rainbows"
+content_sections:
+  - "Varja Varja VARJA!! Hagassa meg! En csak 1-et akarok: ELERNI A VEGCELBE!!!!"
+  - This is the first section
+  - And this is a subsection
+  - You should definitely check out this part
+  - Wow! Lotz of goodies here!
+  - How about this? Cats chewing on green sausages. Yack!  
 ---
 
 <div>
   <p class="text-lg mb-6 leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna ac placerat vestibulum lectus mauris ultrices eros. Nec ullamcorper sit amet risus. Volutpat est velit egestas dui id ornare arcu odio ut. Auctor eu augue ut lectus arcu. Elementum tempus egestas sed sed risus pretium quam. Porttitor eget dolor morbi non. Tellus at urna condimentum mattis pellentesque id nibh. Cursus sit amet dictum sit amet justo. Tellus in metus vulputate eu scelerisque felis imperdiet. </p>
   
-  ## Fos  
+
         
   <h2 id="subsection-title" class="realtive mt-12 text-4xl mb-6 font-bold leading-9 text-gray-800">
     <a class="absolute pr-1 top-0 left-0 bg-transparent hover:text-gray-900 invisible" href="#post-secton" style="transform: translateX(100%);">

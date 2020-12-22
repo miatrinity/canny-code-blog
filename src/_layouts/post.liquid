@@ -11,27 +11,25 @@ layout: default
             <h1 class="text-5xl font-bold m-0 inline-block leading-tight text-gray-800">{{ page.title }}</h1>
           </div>
         </div>
-      </header>
-      
+      </header>      
       {{ content }}
     </article>
-    <aside>
+    <post-sidebar>
       <div class="bg-gray-100 p-6 rounded">
-        <section>
-          <img src="/images/miatrinity.jpeg/" class="max-w-180 block circle mt-0 mx-auto mb-6 h-auto" alt="logo">
-          <p class="text-sm mb-6"><b>tldr&;</b> this is a short summary of what is the article about, or just any musings. could be ommited all together.</p>
-          <p class="text-sm mb-6">this is the <b>this is some random bold text</b> paragraph of the summary, that also can be a little intro about <b>CCCC</b> or us.</p>
-        </section>
-        <section class="mt-10">
-          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Content</h3>
+        <post-summary>
+          <img src="/images/mia_trinity_portrait.jpg/" class="max-w-180 block circle mt-0 mx-auto mb-6 h-auto" alt="logo">          
+          <p class="text-sm mb-6"><b>tl;dr:</b> {{ page.summary }}</p>
+        </post-summary>
+        
+        <post-outline class="mt-10">          
+          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Outline</h3>
           <nav>
-            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ This is the first section</a>
-            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ And this is a subsection</a>
-            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ You should definitely check out this part</a>
-            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ Wow! Lotz of goodies here!</a>
-            <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ How about this? Cats chewing on green sausages. Yack!</a>
+            {% for content_section in page.content_sections %}
+              <a href="" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ {{ content_section }}</a>
+            {% endfor %}
           </nav>
-        </section>
+        </post-outline>
+        
         <section class="mt-10">
           <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Tags</h3>
           <div class="realtive ml-1 mt-2 w-auto text-sm text-gray-600 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-gray-300 ">Javascript</div>
@@ -55,13 +53,10 @@ layout: default
           </nav>
         </section>
       </div>
-    </aside>
+    </post-sidebar>
   </section>
   <nav class="flex flex-row items-stretch -my-4 p-0 lg:container">
     <a href="#"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">This is a link to the orevious post</a>  
     <a href="#" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Yet an other link to the next post</a>  
   </nav>
 </div>
-
-<!-- 
-{{ content }} -->
