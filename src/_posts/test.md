@@ -11,7 +11,16 @@ content_sections:
   - And this is a subsection
   - You should definitely check out this part
   - Wow! Lotz of goodies here!
-  - How about this? Cats chewing on green sausages. Yack!  
+  - How about this? Cats chewing on green sausages. Yack!
+tags:
+  - Javascript
+  - Ruby
+  - GitHub
+  - Creative Coding
+  - Burnout
+  - Thiking Proc
+  - Chewing Habs
+  - WTF is This ShiT??!$*
 ---
 
 <div>

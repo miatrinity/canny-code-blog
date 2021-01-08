@@ -134,7 +134,8 @@ main {
 }
 
 #pill:hover::before {
-  background: #B83280;
+  z-index: -100;
+  background: #be426c;
   width: 100%;
 }
 
@@ -150,13 +151,18 @@ main {
   left: 0;
   border-radius: 50px;
   width: 23%;
-  background: #B83280;
+  background: #be426c;
 }
 
-.pill span {
-  color: #d23669;
-  mix-blend-mode: difference;
+#pill span {
+  color: #be426c;
+  mix-blend-mode:screen;
+  padding-left: 2em;
 }
+
+// #pill:hover {
+//   color: #fff !important;
+// }
 
 .rounded-pill {
   border-radius: 20px;

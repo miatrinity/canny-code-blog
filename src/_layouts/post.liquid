@@ -30,8 +30,15 @@ layout: default
           </nav>
         </post-outline>
         
-        <section class="mt-10">
+        <tag-cloud class="mt-10">
           <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Tags</h3>
+          {% for page_tag in page.tags %}
+          <div class="realtive ml-1 mt-2 w-auto text-sm text-yellow-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-yellow-300 ">{{ page_tag }}</div>
+          {% endfor %}
+        </tag-cloud>
+        
+        <tag-cloud-demo class="mt-10">
+          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Hardcoded - to show varying colors</h3>
           <div class="realtive ml-1 mt-2 w-auto text-sm text-gray-600 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-gray-300 ">Javascript</div>
           <div class="realtive ml-1 mt-2 w-auto text-sm text-red-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-red-300 ">Ruby</div>
           <div class="realtive ml-1 mt-2 w-auto text-sm text-orange-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-orange-300 ">GitHub</div>
@@ -41,9 +48,9 @@ layout: default
           <div class="realtive ml-1 mt-2 w-auto text-sm text-blue-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-blue-300 ">Chewing habs</div>
           <div class="realtive ml-1 mt-2 w-auto text-sm text-indigo-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-indigo-300 ">Time2go</div>
           <div class="realtive ml-1 mt-2 w-auto text-sm text-purple-800 font-bold inline-flex px-4 py-1 items-center justify-center rounded-full bg-purple-300 ">What is this</div>
-        </section>
-        <section class="mt-10">
-          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Ways to be touch</h3>
+        </tag-cloud-demo>
+        <get-in-touch class="mt-10">
+          <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Ways to get in touch</h3>
           <nav class="text">
             <a href="#" class="block py-1 my-1 font-semibold text-gray-700"><span class="mr-2">✉️</span> Newsletter</a>
             <a href="#" class="block py-1 my-1 font-semibold text-gray-700">
@@ -51,7 +58,7 @@ layout: default
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
               </svg>Twitter</a>
           </nav>
-        </section>
+        </get-in-touch>
       </div>
     </post-sidebar>
   </section>
