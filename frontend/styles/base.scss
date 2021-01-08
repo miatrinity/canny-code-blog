@@ -19,11 +19,6 @@
 //   max-width: 60rem;
 // }
 
-h1 {
-  @apply text-4xl font-semibold antialiased text-deep-azure-zeta tracking-tight leading-tight mb-6;
-}
-
-
 .text-apple { color: #61ac3b }
 
 .text-deep-azure-alfa { color: #1d61aa }
@@ -155,14 +150,17 @@ main {
 }
 
 #pill span {
-  color: #be426c;
-  mix-blend-mode:screen;
   padding-left: 2em;
 }
 
-// #pill:hover {
-//   color: #fff !important;
-// }
+#pill:hover {
+  padding-right: 30px;
+   
+}
+
+span.pill-text-hover-color:hover {
+  color: #fff;
+}
 
 .rounded-pill {
   border-radius: 20px;
@@ -187,7 +185,7 @@ a.underline-pink:hover {
 }
 
 .grid.post {
-	margin-top: 5rem;
+	margin-top: 8rem;
 	grid-gap: 5rem;
 	grid-template-columns: 3fr 1fr;
 }
