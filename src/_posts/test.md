@@ -2,8 +2,8 @@
 layout: post
 title:  "Your First Post on Bridgetown"
 date:   2020-12-21 10:39:23 +0100
-categories: updates
-subtitle: "This is the subtitle"
+# categories: updates
+# subtitle: This is a subtitle
 summary: "This works! YAYY! Unicorns & Rainbows"
 content_sections:
   - "Varja Varja VARJA!! Hagassa meg! En csak 1-et akarok: ELERNI A VEGCELBE!!!!"
@@ -15,12 +15,13 @@ content_sections:
 tags:
   - Javascript
   - Ruby
-  - GitHub
-  - Creative Coding
-  - Burnout
-  - Thiking Proc
-  - Chewing Habs
-  - WTF is This ShiT??!$*
+  - Frontend
+  - Rails
+  - Tailwind
+  - Forms
+  - Devise
+  - Stimulus
+  - Hotwire
 ---
 
 <div>

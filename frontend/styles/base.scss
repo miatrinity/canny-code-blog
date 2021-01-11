@@ -235,3 +235,92 @@ pre.language-terminal::before {
 *, ::after, ::before {
 	box-sizing: border-box;
 }
+
+h2.section-title
+{ 
+  position:relative; 
+}
+
+h2.section-title span {
+  position:absolute;
+  top:-100px;
+}
+
+// Category pills
+
+.category {
+  @apply relative ml-1 mt-2 w-auto text-sm font-bold inline-flex px-4 py-1 items-center justify-center rounded-full;  
+}
+
+.pill-color-gray {
+  @apply bg-gray-300 text-gray-600;
+}
+
+.pill-color-frontend {
+  @apply pill-color-gray;
+}
+
+.pill-color-red {
+  @apply text-red-800 bg-red-300;
+}
+
+.pill-color-ruby, .pill-color-rails {
+  @apply pill-color-red;
+}
+
+.pill-color-orange {
+  @apply text-orange-800 bg-orange-300;
+}
+
+.pill-color-stimulus {
+  @apply pill-color-orange;
+}
+
+.pill-color-yellow {
+  @apply text-yellow-800 bg-yellow-300;
+}
+
+.pill-color-javascript {
+  @apply pill-color-yellow;
+}
+
+.pill-color-green {
+  @apply text-green-800 bg-green-300;
+}
+
+.pill-color-devise {
+  @apply pill-color-green;
+}
+
+.pill-color-teal {
+  @apply text-teal-800 bg-teal-300;
+}
+
+.pill-color-tailwind {
+  @apply pill-color-teal;
+}
+
+.pill-color-blue {
+  @apply text-blue-800 bg-blue-300;
+}
+
+.pill-color-devise {
+  @apply pill-color-blue;
+}
+
+.pill-color-indigo {
+  @apply text-indigo-800 bg-indigo-300;
+}
+
+.pill-color-hotwire {
+  @apply pill-color-indigo;
+}
+
+.pill-color-purple {
+  @apply text-purple-800 bg-purple-300;
+}
+
+.pill-color-forms {
+  @apply pill-color-purple;
+}
+
