@@ -13,7 +13,7 @@ content_sections:
   - Wow! Lotz of goodies here!
   - How about this? Cats chewing on green sausages. Yack!
 tags:
-  - Javascript
+  - JavaScript
   - Ruby
   - Frontend
   - Rails
