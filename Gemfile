@@ -17,3 +17,5 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Happy Bridgetowning!
 
 gem "bridgetown", "~> 0.21.0.beta3"
+
+gem "serbea", "~> 0.12", :group => :bridgetown_plugins
