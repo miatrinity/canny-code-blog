@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<div class="lg:container py-0 px-8 mx-auto ">
-  <section class="grid items-stretch post gap-20 my-12  mx-0 h-1/2">
+<div class="lg:container py-0 px-8 mx-auto mt-12 mb-20 md:mt-10">
+  <section class="grid items-stretch post gap-20 mb-12  mx-0 h-1/2">
     <article>
       <header class="pt-0 mb-12" id="article-header">
-        <div class="lg:container py-0 px-8 mx-auto">
-          <div class="flex items-center flex-row">
-            <h1 class="text-5xl font-bold m-0 inline-block leading-tight text-gray-800">{{ page.title }}</h1>
-          </div>
-        </div>
-      </header>      
-      {{ content }}
+       <h1 class="text-5xl font-black m-0 inline-block leading-tight">{{ page.title }}</h1>
+      </header>
+      <article-content class="prose lg:prose-xl">
+        {{ content }}
+      </article-content>
     </article>
     <post-sidebar>
       <div class="bg-gray-100 p-6 rounded">

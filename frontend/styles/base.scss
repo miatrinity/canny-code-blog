@@ -1,23 +1,13 @@
-// $body-background: #fafafa;
-// $body-color: #444;
+html {
+  font-size: 16px;
+}
 
-// TODO: remove
-// TODO: remove
-// TODO: remove
-// body {
-//   background: $body-background;
-//   color: $body-color;
-//   font-family: sans-serif;
-// }
-
-// h1, nav, footer {
-//   text-align: center;
-// }
-
-// main {
-//   margin: 4rem auto;
-//   max-width: 60rem;
-// }
+body {
+  @apply text-black;
+}
+.prose {
+  @apply text-gray-800;
+}
 
 .text-apple { color: #61ac3b }
 
@@ -185,7 +175,6 @@ a.underline-pink:hover {
 }
 
 .grid.post {
-	margin-top: 8rem;
 	grid-gap: 5rem;
 	grid-template-columns: 3fr 1fr;
 }
@@ -324,3 +313,9 @@ h2.section-title span {
   @apply pill-color-purple;
 }
 
+.prose h2 {
+  @apply text-gray-800;
+}
+.prose h3 {
+  @apply text-gray-600;
+}
