@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{%= yield %}
+<div style="height: 400px; height: 60vh" class="flex justify-center items-center flex-col">
+  <img src="/images/logo_with_text.png" class="mx-20 lg:max-w-screen-md max-h-40"/>
+</div>
 
 <main class="flex justify-center flex-grow mt-8 mx-auto max-w-screen-lg px-4 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 xl:mt-8">
   <div id="latest-articles-container" class="flex flex-col justify-start w-full">

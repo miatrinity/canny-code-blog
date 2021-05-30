@@ -1,30 +1,35 @@
-<article-pill class="block flex flex-col m-8 shadow-2xl">
-  <a href="{{ @post.url }}">
-    <div id="article-card" class="flex flex-col cursor-pointer w-full flex-wrap p-8 rounded-lg hover:shadow-cp transition-shadow duration-200">
-      <div id="article-header" class="flex flex-col justify-between mb-4 w-full">
-        <div id="article-title" class="flex justify-between">
-          <h3 class="text-3xl text-gray-900 mb-3 max-w-3xl inline-block p-0 font-bold">{{ @post.data.title }}</h3>
+{%- reading_time_copy = capture do %}
+  {{ post_minutes }} minute read
+{%- end.strip %}
+{%- if @reading_time_only %}{{ reading_time_copy }}{%- else %}
+  <article class="block flex flex-col m-8 shadow-2xl">
+    <a href="{{ @post.url }}">
+      <div id="article-card" class="flex flex-col cursor-pointer w-full flex-wrap p-8 rounded-lg hover:shadow-cp transition-shadow duration-200">
+        <div id="article-header" class="flex flex-col justify-between mb-4 w-full">
+          <div id="article-title" class="flex justify-between">
+            <h3 class="text-3xl text-gray-900 mb-3 max-w-3xl inline-block p-0 font-bold">{{ @post.data.title }}</h3>
+          </div>
+          <p id="article-summary" class="text-grey-600">
+            {{ @post.data.summary }}
+          </p>
         </div>
-        <p id="article-summary" class="text-grey-600">
-          {{ @post.data.summary }}
-        </p>
-      </div>
-      <div id="article-footer" class="flex mt-3 justify-between">
-        <p id="pill" class="border-none my-2 text-base font-bold relative">
-          <span class="uppercase pill-text-hover-color text-ruby-gamma ml-1">Read article</span>          
-        </p>
-        <div>
+        <div id="article-footer" class="flex mt-3 justify-between">
+          <p id="pill" class="border-none my-2 text-base font-bold relative">
+            <span class="uppercase pill-text-hover-color text-ruby-gamma ml-1">Read article</span>          
+          </p>
           <div>
-            <!-- <div class="show-on-tablet-and-smaller">
-              <small></small>
-              <span>1238 words</span>
-            </div> -->
-            <span class="ml-3 bg-white border border-gray-300 border-solid inline-block py-2 px-4 rounded-pill mr-3 text-base text-gray-500">
-              ~{{ post_minutes }} minute read
-            </span>
+            <div>
+              <!-- <div class="show-on-tablet-and-smaller">
+                <small></small>
+                <span>1238 words</span>
+              </div> -->
+              <span class="ml-3 bg-white border border-gray-300 border-solid inline-block py-2 px-4 rounded-pill mr-3 text-base text-gray-500">
+                {{ reading_time_copy }}
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </a>
-</article-pill>
+    </a>
+  </article>
+{%- end %}

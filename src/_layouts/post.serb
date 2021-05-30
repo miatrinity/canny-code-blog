@@ -6,33 +6,34 @@ layout: default
   <section class="grid items-stretch post gap-20 mb-12  mx-0 h-1/2">
     <article>
       <header class="pt-0 mb-12" id="article-header">
-       <h1 class="text-5xl font-black m-0 inline-block leading-tight">{{ page.title }}</h1>
+       <h1 class="text-5xl font-black m-0 inline-block leading-tight">{{ page.data.title }}</h1>
       </header>
       <article-content class="prose lg:prose-xl">
-        {{ content }}
+        {%= yield %}
       </article-content>
     </article>
     <post-sidebar>
       <div class="bg-gray-100 p-6 rounded">
         <post-summary>
           <img src="/images/mia_trinity_portrait.jpg/" class="max-w-180 block circle mt-0 mx-auto mb-6 h-auto" alt="logo">          
-          <p class="text-sm mb-6"><b>tl;dr:</b> {{ page.summary }}</p>
+          <p class="text-sm mb-4"><b>tl;dr:</b> {{ page.data.summary }}</p>
+          <p class="mb-6 text-sm text-gray-500">{%@ Content::PostItem post: resource, reading_time_only: true %}</p>
         </post-summary>
         
-        <post-outline class="mt-10">          
+        <post-outline class="mt-10">
           <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Outline</h3>
           <nav>
-            {% for content_section in page.content_sections %}
-              <a href="#section-{{ forloop.index }}" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ {{ content_section }}</a>
-            {% endfor %}
+            {% page.data.content_sections&.each_with_index do |content_section, index| %}
+              <a href="#section-{{ index }}" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ {{ content_section }}</a>
+            {% end %}
           </nav>
         </post-outline>
         
         <tag-cloud class="mt-10">
           <h3 class="mt-8 mb-4 pb-1 border-b border-gray-700">Tags</h3>
-          {% for page_tag in page.tags %}
-          <div class="category pill-color-{{ page_tag | split: " " | join: "-" | downcase }}">{{ page_tag }}</div>
-          {% endfor %}
+          {% page.data.tags.each do |page_tag| %}
+            <a href="/tagged/{{ page_tag | slugify }}" class="category pill-color-{{ page_tag | split: " " | join: "-" | downcase }}">{{ page_tag }}</a>
+          {% end %}
         </tag-cloud>
         
         <get-in-touch class="mt-10">
@@ -49,7 +50,7 @@ layout: default
     </post-sidebar>
   </section>
   <nav class="flex flex-row items-stretch -my-4 p-0 lg:container">
-    <a href="#"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">This is a link to the orevious post</a>  
-    <a href="#" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Yet an other link to the next post</a>  
+    <a href="#"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Previous post</a>  
+    <a href="#" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Next post</a>  
   </nav>
 </div>
