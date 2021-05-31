@@ -22,4 +22,4 @@ touch - we'd ❤️ to hear from you! Here are a few ways to contact us:
     (<a href="https://twitter.com/MiaSinek" class="underline text-indigo-800">@mia</a>
     is on a digital detox📟🥦🥬🥒 for now ¯\_(ツ)_/¯)
 * 🐙 Follow us on
-    <a href="https://gist.github.com/miatrinity" class="underline text-indigo-800">miatrinity@GitHub</a>
+    <a href="https://github.com/miatrinity" class="underline text-indigo-800">GitHub @miatrinity</a>
