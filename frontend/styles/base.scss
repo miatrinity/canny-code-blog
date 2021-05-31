@@ -7,6 +7,10 @@ body {
 }
 .prose {
   @apply text-gray-800;
+
+  strong {
+    font-weight: var(--tw-typography-font-weight-strong);
+  }
 }
 
 .text-apple { color: #61ac3b }

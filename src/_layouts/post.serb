@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="lg:container py-0 px-8 mx-auto mt-12 mb-20 md:mt-10">
+<div class="lg:container py-0 px-8 mx-auto mt-12 mb-12 md:mt-10">
   <section class="grid items-stretch post gap-20 mb-12  mx-0 h-1/2">
     <article>
       <header class="pt-0 mb-12" id="article-header">
@@ -20,21 +20,31 @@ layout: default
           <p class="mb-6 text-sm text-gray-500">{%@ Content::PostItem post: resource, reading_time_only: true %}</p>
         </post-summary>
         
-        <post-outline class="mt-10">
+        <post-outline>
           <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Outline</h3>
-          <nav>
-            {% page.data.content_sections&.each_with_index do |content_section, index| %}
-              <a href="#section-{{ index }}" class="block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700">👉️ {{ content_section }}</a>
-            {% end %}
+          <nav id="list-of-post-sections">
+            <script>
+              if (document.querySelector("article-content #markdown-toc")) {
+                document.querySelector("#list-of-post-sections").prepend(document.querySelector("article-content #markdown-toc"))
+                Array.from(document.querySelectorAll("#list-of-post-sections #markdown-toc a")).forEach(link => {
+                  link.className = "block py-1 my-1 font-semibold text-gray-700 text-sm hover:text-pink-700"
+                  link.prepend(document.createTextNode("👉️ "))
+                })
+              } else {
+                document.querySelector("post-outline").remove()
+              }
+            </script>
           </nav>
         </post-outline>
         
-        <tag-cloud class="mt-10">
-          <h3 class="mt-8 mb-4 pb-1 border-b border-gray-700">Tags</h3>
-          {% page.data.tags.each do |page_tag| %}
-            <a href="/tagged/{{ page_tag | slugify }}" class="category pill-color-{{ page_tag | split: " " | join: "-" | downcase }}">{{ page_tag }}</a>
-          {% end %}
-        </tag-cloud>
+        {% if page.data.tags.present? %}
+          <tag-cloud>
+            <h3 class="mt-8 mb-4 pb-1 border-b border-gray-700">Tags</h3>
+            {% page.data.tags.each do |page_tag| %}
+              <a href="/tagged/{{ page_tag | slugify }}" class="category pill-color-gray pill-color-{{ page_tag | split: " " | join: "-" | downcase }}">{{ page_tag }}</a>
+            {% end %}
+          </tag-cloud>
+        {% end %}
         
         <get-in-touch class="mt-10">
           <h3 class="mt-8 mb-4 pb-1 border-b border-gray-700">Ways to get in touch</h3>
@@ -49,8 +59,15 @@ layout: default
       </div>
     </post-sidebar>
   </section>
-  <nav class="flex flex-row items-stretch -my-4 p-0 lg:container">
-    <a href="#"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Previous post</a>  
-    <a href="#" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Next post</a>  
+  <nav class="flex flex-row items-stretch p-0 lg:container">
+    {% if resource.previous_resource %}
+      <a href="{{ resource.previous_resource.relative_url }}"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">👈 &nbsp;{{ resource.previous_resource.data.title }}</a>  
+    {% end %}
+    {% if resource.next_resource %}
+      {% unless resource.previous_resource %}
+        <span class="flex-basis-half">&nbsp;</span>
+      {% end %}
+      <a href="{{ resource.next_resource.relative_url }}" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">{{ resource.next_resource.data.title }} &nbsp;👉</a>
+    {% end %}
   </nav>
 </div>

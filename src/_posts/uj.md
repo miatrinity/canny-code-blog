@@ -1,14 +1,8 @@
 ---
-layout: post
 title:  "Ez egy UJ post!"
-date:   2020-01-11 10:39:23 +0100
 # categories: updates
 # subtitle: This is a subtitle
 summary: "Testing sidebar stuff - content sections below"
-content_sections:
-  - "This is the first section"
-  - "Another super-interesting section"
-  - "And this is even more interesting"
 tags:
   - Ruby
   - Rails

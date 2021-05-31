@@ -18,6 +18,14 @@
 baseurl: "" # OPTIONAL: the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 
-permalink: pretty
+pagination:
+  enabled: true
+
+template_engine: serbea
+content_engine: resource
+permalink: simple
+
+kramdown:
+  toc_levels: "2"
 
 # timezone: America/Los_Angeles

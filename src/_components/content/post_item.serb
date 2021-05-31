@@ -3,11 +3,11 @@
 {%- end.strip %}
 {%- if @reading_time_only %}{{ reading_time_copy }}{%- else %}
   <article class="block flex flex-col m-8 shadow-2xl">
-    <a href="{{ @post.url }}">
+    <a href="{{ @post.relative_url }}">
       <div id="article-card" class="flex flex-col cursor-pointer w-full flex-wrap p-8 rounded-lg hover:shadow-cp transition-shadow duration-200">
         <div id="article-header" class="flex flex-col justify-between mb-4 w-full">
           <div id="article-title" class="flex justify-between">
-            <h3 class="text-3xl text-gray-900 mb-3 max-w-3xl inline-block p-0 font-bold">{{ @post.data.title }}</h3>
+            <h3 class="text-3xl text-gray-900 mb-3 max-w-3xl inline-block p-0 font-black">{{ @post.data.title }}</h3>
           </div>
           <p id="article-summary" class="text-grey-600">
             {{ @post.data.summary }}

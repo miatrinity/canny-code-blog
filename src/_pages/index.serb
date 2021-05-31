@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div style="height: 400px; height: 60vh" class="flex justify-center items-center flex-col">
+  <img src="/images/logo_with_text.png" class="mx-20 lg:max-w-screen-md max-h-40"/>
+</div>
+
+<section class="flex justify-center flex-grow mt-8 mx-auto max-w-screen-lg px-4 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 xl:mt-8">
+  <div id="latest-articles-container" class="flex flex-col justify-start w-full">
+    <h3 class="border-t-4 border-solid border-pink-700 text-4xl pt-1 mb-8 mt-16 uppercase text-gray-500">Latest articles</h3>
+    
+    {% collections.posts.resources[0..3].each do |post| %}
+      {%@ Content::PostItem post: post %}
+    {% end %}
+  </div>
+</section>
+
+<section class="mt-12 mb-10 text-center">
+  {% if collections.posts.resources[4] %}
+    <a href="/posts"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">View All</a>
+  {% end %}
+</section>
