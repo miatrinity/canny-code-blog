@@ -15,16 +15,11 @@ After working on everyone else’s dreams for almost two decades, we are ready t
 If you have any feedback, suggestion, or just want to say hi, do get in
 touch - we'd ❤️ to hear from you! Here are a few ways to contact us:
 
-<ul>
-  <li>
-    📧 Shoot us an email at
-    <a href="mailto:mia.trinity.codes@gmail.com" class="underline text-indigo-800">mia.trinity.codes@gmail.com</a></li> <li>
-    🐦 Tweet at
+* 📧 Shoot us an email at
+    <a href="mailto:mia.trinity.codes@gmail.com" class="underline text-indigo-800">mia.trinity.codes@gmail.com</a>
+* 🐦 Tweet at
     <a href="https://twitter.com/TrinityTakei" class="underline text-indigo-800">@trinitytakei</a>
     (<a href="https://twitter.com/MiaSinek" class="underline text-indigo-800">@mia</a>
     is on a digital detox📟🥦🥬🥒 for now ¯\_(ツ)_/¯)
-  </li>
-  <li>
-    🐙 Follow us on
-    <a href="https://gist.github.com/miatrinity" class="underline text-indigo-800">miatrinity@GitHub</a></li>
-</ul>
+* 🐙 Follow us on
+    <a href="https://gist.github.com/miatrinity" class="underline text-indigo-800">miatrinity@GitHub</a>
