@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {%@ Shared::Head metadata: site.metadata, title: page.data.title %}
+  </head>
+  <body class="{{ page.data.layout }} {{ page.data.page_class }} min-h-screen flex flex-col">
+
+    {%= liquid_render "navbar", metadata: site.metadata, page: page %}
+
+    <main class="flex-1 mt-16">
+      {%= yield %}
+    </main>
+
+    {%= liquid_render "newsletter", metadata: site.metadata %}
+    {%= liquid_render "footer", metadata: site.metadata %}
+  </body>
+</html>

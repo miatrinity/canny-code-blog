@@ -13,6 +13,27 @@ body {
   }
 }
 
+.grid.post {
+	grid-gap: 5rem;
+
+  article post-summary {
+    display: block;
+    img {
+      margin-left: 0;
+      margin-top: 2.5rem;
+      width: 100px;
+    }
+  }
+  post-sidebar post-summary { display: none }
+
+  @screen md {
+	  grid-template-columns: 3fr 1fr;
+
+    article post-summary { display: none }
+    post-sidebar post-summary { display: block }
+  }
+}
+
 .text-apple { color: #61ac3b }
 
 .text-deep-azure-alfa { color: #1d61aa }
@@ -122,38 +143,40 @@ main {
   img { max-height: 12rem; }
 }
 
-#pill:hover::before {
-  z-index: -100;
-  background: #be426c;
-  width: 100%;
-}
+@screen md {
+  #pill:hover::before {
+    z-index: -100;
+    background: #be426c;
+    width: 100%;
+  }
 
-#pill:before {
-  -webkit-transition: all .4s;
-  transition: all .4s;
-  content: "";
-  width: 50%;
-  height: 100%;
-  background: #000;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50px;
-  width: 23%;
-  background: #be426c;
-}
+  #pill:before {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    content: "";
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    width: 15%;
+    background: #be426c;
+  }
 
-#pill span {
-  padding-left: 2em;
-}
+  #pill span {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
-#pill:hover {
-  padding-right: 30px;
-   
-}
-
-span.pill-text-hover-color:hover {
-  color: #fff;
+  span.pill-text-hover-color {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  span.pill-text-hover-color:hover {
+    color: #fff;
+  }
 }
 
 .rounded-pill {
@@ -176,11 +199,6 @@ a.underline-pink:hover {
 
 .circle {
   border-radius: 50%;
-}
-
-.grid.post {
-	grid-gap: 5rem;
-	grid-template-columns: 3fr 1fr;
 }
 
 .max-w-180 {

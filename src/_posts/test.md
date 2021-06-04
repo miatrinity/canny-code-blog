@@ -1,6 +1,6 @@
 ---
 title:  "Your First Post on Bridgetown"
-summary: "This works! YAYY! Unicorns & Rainbows"
+description: "This works! YAYY! Unicorns & Rainbows"
 tags:
   - JavaScript
   - Ruby

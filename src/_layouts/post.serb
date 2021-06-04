@@ -2,11 +2,20 @@
 layout: default
 ---
 
+{% post_summary = capture do %}
+  <post-summary>
+    <img src="/images/mia_trinity_portrait.jpg/" class="max-w-180 block circle mt-0 mx-auto mb-6 h-auto" alt="logo">          
+    <p class="text-sm mb-4"><b>tl;dr:</b> {{ page.data.description }}</p>
+    <p class="mb-6 text-sm text-gray-500">{%@ Content::PostItem post: resource, reading_time_only: true %}</p>
+  </post-summary>
+{% end %}
+
 <div class="lg:container py-0 px-8 mx-auto mt-12 mb-12 md:mt-10">
-  <section class="grid items-stretch post gap-20 mb-12  mx-0 h-1/2">
+  <section class="grid post gap-20 mb-12  mx-0 h-1/2">
     <article>
       <header class="pt-0 mb-12" id="article-header">
-       <h1 class="text-5xl font-black m-0 inline-block leading-tight">{{ page.data.title }}</h1>
+        <h1 class="text-4xl md:text-5xl font-black m-0 inline-block leading-tight">{{ page.data.title }}</h1>
+        {{ post_summary }}
       </header>
       <article-content class="prose lg:prose-xl">
         {%= yield %}
@@ -14,12 +23,7 @@ layout: default
     </article>
     <post-sidebar>
       <div class="bg-gray-100 p-6 rounded">
-        <post-summary>
-          <img src="/images/mia_trinity_portrait.jpg/" class="max-w-180 block circle mt-0 mx-auto mb-6 h-auto" alt="logo">          
-          <p class="text-sm mb-4"><b>tl;dr:</b> {{ page.data.summary }}</p>
-          <p class="mb-6 text-sm text-gray-500">{%@ Content::PostItem post: resource, reading_time_only: true %}</p>
-        </post-summary>
-        
+        {{ post_summary }}
         <post-outline>
           <h3 class="mt-2 mb-4 pb-1 border-b border-gray-700">Outline</h3>
           <nav id="list-of-post-sections">
