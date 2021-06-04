@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="flex justify-center flex-grow mt-8 mx-auto max-w-screen-lg px-0 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 xl:mt-8">
+  <div id="latest-articles-container" class="flex flex-col justify-start w-full">
+    <h1 class="text-4xl md:text-5xl font-black mb-4 mx-8 inline-block leading-tight">{{ resource.data.title }}</h1>
+    
+    {% paginator.resources.each do |post| %}
+      {%@ Content::PostItem post: post %}
+    {% end %}
+  </div>
+</section>
+
+<section class="mx-auto max-w-screen-lg px-8 mt-8">
+  <nav class="flex flex-row items-stretch lg:container">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | sub: "//", "/" }}"  class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">👈 &nbsp;Previous Page</a>
+    {% end %}
+    {% if paginator.next_page %}
+      {% unless paginator.previous_page %}
+        <span class="flex-basis-half">&nbsp;</span>
+      {% end %}
+      <a href="{{ paginator.next_page_path | sub: "//", "/" }}" class="flex-grow-0 flex-shrink-0 flex-basis-half text-center m-4 border-b-0 transition-all duration-200 ease p-6 rounded bg-gray-200 font-bold">Next Page &nbsp;👉</a>
+    {% end %}
+  </nav>
+</section>
