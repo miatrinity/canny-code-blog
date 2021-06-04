@@ -6,7 +6,7 @@ paginate:
 ---
 
 
-<section class="flex justify-center flex-grow mt-8 mx-auto max-w-screen-lg px-4 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 xl:mt-8">
+<section class="flex justify-center flex-grow mt-8 mx-auto max-w-screen-lg px-0 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 xl:mt-8">
   <div id="latest-articles-container" class="flex flex-col justify-start w-full">
     <h1 class="text-5xl font-black mb-4 mx-8 inline-block leading-tight">{{ resource.data.title }}</h1>
     
