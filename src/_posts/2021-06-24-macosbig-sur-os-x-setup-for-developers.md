@@ -29,7 +29,7 @@ tags:
 
 Ahh, the incomparable feeling of logging in to your new Mac for the first time. So uncluttered, so pristine, so shiny.
 
-TODO: add the product image from here: https://www.amazon.com/-/es/Twelve-South-Inspire-recipiente-inspirado/dp/B075BF39F9
+![ahh the feeling of a new Mac](/images/mac-candle.jpg)
 
 Alas, not very useful without a bit (ok, a metric shit-ton) of set up and polishing! To get any measurable mileage out of your new baby, you will need to:
 
