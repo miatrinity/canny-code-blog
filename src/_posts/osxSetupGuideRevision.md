@@ -10,40 +10,22 @@ this installs it without sudo and without r/w perms errors, such as:
 ALSO IMPORTANT RE: ASDF AND RUBY
 ```https://www.codegram.com/blog/asdf-version-manager-to-rule-them-all/```
 
-always do:
-create 
-~/.asdfrc
-~/.tool-versions
-
-add to ~/.asdfrc
-```legacy_version_file = yes```
-add to ~/.tool-versions
-```
-ruby 3.0.1
-rails-6.1.4```
-```
-
-
-Should also include .tool-versions and ~/.asdfrc  in the dot files
-
 Very important for rails lol:
 ```https://stackoverflow.com/questions/7788946/rails-keeps-telling-me-that-its-not-currently-installed```
 
 "If you're running a rails command _immediately after installing rails_, you will need to restart your terminal before your commands will be recognized."
 
 
-be sure to ssh keys to chmod 400 (only viewable by you)
-
 immediate notes: 
-"https://thevaluable.dev/zsh-install-configure/%5D(https://thevaluable.dev/zsh-install-configure/)" returns 404 not found/ nginx
+"(https://thevaluable.dev/zsh-install-configure/)"
 
-"https://github.com/swrobel/dotfiles%5D(https://github.com/swrobel/dotfiles)" Returns 404
+(https://github.com/swrobel/dotfiles)" 
 
-"https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd%5D(https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd)" Returns 404
+"(https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd)" 
 
-"https://www.thorsten-hans.com/5-types-of-zsh-aliases%5D(https:/thorsten-hans.com/5-types-of-zsh-aliases)"
+"(https:/thorsten-hans.com/5-types-of-zsh-aliases)"
 
-Page does not exist
+all pages function
 
 Re: M1 Brew:
 
@@ -119,42 +101,40 @@ https://www.reddit.com/r/linux/comments/b0suyu/powerlevel10k_the_fastest_zsh_the
 ##########################
 
 
-Brew shortcuts returns 404
-https://cannycode.io/updates/macosbig-sur-os-x-setup-for-developers/[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
+works
+(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
 
 full details here (zsh plugins)
-returns 404
+
 `bubc -> brew upgrade && brew cleanup`
 
 ########################
 
 
 ZSH alias plugin issues
-link 1: ```https://dev.to/mattstratton/my-brewfile-1pob%5D(https://dev.to/mattstratton/my-brewfile-1pob)```
-link 2:```https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2%5D(https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2)```
+ ```(https://dev.to/mattstratton/my-brewfile-1pob)```
 
-full list of shortcuts returns 404, from CannyCode.io
-```https://cannycode.io/updates/macosbig-sur-os-x-setup-for-developers/[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)```
+```https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2```
+
+full list of shortcuts, from CannyCode.io
+```(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)```
 
 full details re: web-search plugin link:
-```https://cannycode.io/updates/macosbig-sur-os-x-setup-for-developers/[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)```
+```(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)```
 
 full details for zsh plugins
-```https://cannycode.io/updates/macosbig-sur-os-x-setup-for-developers/[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)```
+```(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)```
 
 
-asdf link returning 404
-```https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf)```
 
-zsh plugin links all 404 from docker to node
+```(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf)```
+
+
 
 ###################
 
 Prologue mkdir workspace &&'s work
 
-###################
-
-cannycode ssh guide 404's
 
 ####################
 
@@ -183,15 +163,15 @@ colorls
 
 ######################
 visual studio
-links do not work
+links work
 
-custom css and js loader links do not work
+custom css and js loader links work
+
 
 ######################
 
 vs as default editor
 - apparently working, I'm using vscodium
-
 
 
 
