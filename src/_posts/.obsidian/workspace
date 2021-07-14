@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "bf0b20d2fb3c0dfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c13c61714baa9253",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "847ec8cc36a61088",
+    "type": "split",
+    "children": [
+      {
+        "id": "a725c561b534fd1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8f5163bdf0763c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb6cd9a88838ba75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5651cc2d7fc6ff56",
+    "type": "split",
+    "children": [
+      {
+        "id": "86c7f7bd81964521",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffb37910fcc01673",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c13c61714baa9253",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "osxSetupGuideRevision.md"
+  ]
+}
