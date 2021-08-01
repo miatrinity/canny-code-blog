@@ -300,7 +300,7 @@ Unless you are a happy camper already, you are about to transition from the seco
 
 
 
-TODO: image
+![The power of z!](/images/z-demo.gif)
 
 Note: There’s a chance you are going to see a similar error message after installing the plugin:
 
