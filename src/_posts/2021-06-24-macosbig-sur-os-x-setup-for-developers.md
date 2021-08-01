@@ -324,7 +324,7 @@ You can safely ignore it - it will vanish automatically when you open a new term
 
 The Fuck, especially in the oh-my-zsh plugin version (just hit ESC twice) is another severely underrated gem! A picture Is worth a bazillion words:
 
-[This is too satisfying](/images/thefuckexample.jpg)
+![This is too satisfying](/images/thefuckexample.jpg)
 
 
 
@@ -496,11 +496,10 @@ I like to separate my projects under directories based on language. I’m adding
 
 
 
-TODO: Nikki wtf does this not work?! Plz fix
-Comment: The below doesn't work because of the formatting. 
       
 
 ```bash
+
 mkdir workspace && cd workspace &&\
 mkdir ruby && \
 mkdir rails && \
@@ -512,7 +511,9 @@ mkdir python
 ```
 
 It should be noted that in zsh, you'll get this kind of response:
-```**➜** **workspace** mkdir workspace && cd workspace &&\
+``` bash
+
+**➜** **workspace** mkdir workspace && cd workspace &&\
 cmdand cmdand> mkdir ruby &&
 ```
 
