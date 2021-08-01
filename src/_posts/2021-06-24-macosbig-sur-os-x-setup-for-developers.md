@@ -500,7 +500,8 @@ TODO: Nikki wtf does this not work?! Plz fix
 Comment: The below doesn't work because of the formatting. 
       
 
-```mkdir workspace && cd workspace &&\
+```bash
+mkdir workspace && cd workspace &&\
 mkdir ruby && \
 mkdir rails && \
 mkdir js && \
@@ -509,35 +510,10 @@ mkdir elixir && \
 mkdir elm && \
 mkdir python
 ```
-This is what I used.
--Nikki
 
 It should be noted that in zsh, you'll get this kind of response:
 ```**➜** **workspace** mkdir workspace && cd workspace &&\
 cmdand cmdand> mkdir ruby &&
-```
-
-
-
-
-```bash
-
-mkdir workspace && cd workspace && \
-
-      mkdir ruby && \
-
-      mkdir rails && \
-
-      mkdir js && \
-
-      mkdir vue && \
-
-      mkdir elixir && \
-
-      mkdir elm && \
-
-      mkdir python
-
 ```
 
 
@@ -577,11 +553,8 @@ For security reasons, you need to set permissions on the generated private keys:
 ```bash
 
 sudo chmod 600 ~/.ssh/id_rsa_clark_kent \
-
-  && chmod 600 ~/.ssh/id_rsa_trinity \
-
-  && chmod 600 ~/.ssh/id_rsa_miatrinity
-
+&& chmod 600 ~/.ssh/id_rsa_trinity \
+&& chmod 600 ~/.ssh/id_rsa_miatrinity
 ```
 
 
