@@ -11,15 +11,15 @@ tags:
 
 # Hackintosh Setup  - OS X
 
-[[https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99%5D(https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99))
+[Terminal Makeover](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)
 
-[[https://thevaluable.dev/zsh-install-configure/](https://thevaluable.dev/zsh-install-configure/)](https://thevaluable.dev/zsh-install-configure/%5D(https://thevaluable.dev/zsh-install-configure/))
+[Zsh installation and configuration](https://thevaluable.dev/zsh-install-configure/)
 
-[[https://github.com/swrobel/dotfiles](https://github.com/swrobel/dotfiles)](https://github.com/swrobel/dotfiles%5D(https://github.com/swrobel/dotfiles))
+[Dot Files and why you need them](https://github.com/swrobel/dotfiles)
 
-[[https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd](https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd)](https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd%5D(https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd))
+[Macbook like a pro](https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd)
 
-[[https://thorsten-hans.com/5-types-of-zsh-aliases](https://thorsten-hans.com/5-types-of-zsh-aliases)](https://thorsten-hans.com/5-types-of-zsh-aliases%5D(https://thorsten-hans.com/5-types-of-zsh-aliases))
+[5 Types of Zsh aliases](https://thorsten-hans.com/5-types-of-zsh-aliases)
 
 
 
@@ -194,7 +194,7 @@ compaudit | xargs chmod g-w,o-w
 
 ### Set up a theme
 
-Recommended: [Powerlevel10k]([https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) "Powerlevel10k theme for oh-my-zsh")
+Recommended: [Powerlevel10k theme for oh-my-zsh](https://github.com/romkatv/powerlevel10k) "
 
 
 
@@ -238,7 +238,7 @@ fi
 
 
 
-[Instant Prompt]([https://github.com/romkatv/powerlevel10k/blob/master/README.md#instant-prompt](https://github.com/romkatv/powerlevel10k/blob/master/README.md#instant-prompt) "Instant Prompt") displays the prompt immediately (while loading plugins in the background), so you can start typing right away. Smooooth!
+[Instant Prompt]((https://github.com/romkatv/powerlevel10k/blob/master/README.md#instant-prompt) "Instant Prompt") displays the prompt immediately (while loading plugins in the background), so you can start typing right away. Smooooth!
 
 
 
@@ -250,7 +250,7 @@ You probably saw videos of  keyboard ninjas who accomplish large swathes of stu
 
 
 
-Check out [Oh My Zsh Plugins]([https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) "Oh My Zsh Plugins") for a complete list.
+Check out [Oh My Zsh Plugins]((https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) "Oh My Zsh Plugins") for a complete list.
 
 
 
@@ -278,7 +278,7 @@ Let’s go through each of these quickly.
 
 #### z
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z))
+[Oh my Zsh plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
 
 There are three types of developers in the world:
 
@@ -300,7 +300,7 @@ Unless you are a happy camper already, you are about to transition from the seco
 
 
 
-TODO: image
+![The power of z!](/images/z-demo.gif)
 
 Note: There’s a chance you are going to see a similar error message after installing the plugin:
 
@@ -324,7 +324,7 @@ You can safely ignore it - it will vanish automatically when you open a new term
 
 The Fuck, especially in the oh-my-zsh plugin version (just hit ESC twice) is another severely underrated gem! A picture Is worth a bazillion words:
 
-TODO: image
+![This is too satisfying](/images/thefuckexample.jpg)
 
 
 
@@ -372,13 +372,13 @@ g=git
 
 #### brew
 
-TODO: [[https://dev.to/mattstratton/my-brewfile-1pob](https://dev.to/mattstratton/my-brewfile-1pob)](https://dev.to/mattstratton/my-brewfile-1pob%5D(https://dev.to/mattstratton/my-brewfile-1pob))
+TODO: [https://dev.to/mattstratton/my-brewfile-1pob](https://dev.to/mattstratton/my-brewfile-1pob)
 
-TODO: [[https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2](https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2)](https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2%5D(https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2))
+TODO: [Dot files and Brew](https://github.com/magarcia/dotfiles/blob/master/.Brewfile%23%23yadm.j2)
 
 brew-specific set of shortcuts, like `bubc -> brew upgrade && brew cleanup`.
 
-Full list of shortcuts [here]([https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) "brew plugin shortcuts").
+Full list of shortcuts [here](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew).
 
 
 
@@ -402,7 +402,7 @@ google oh-my-zsh websearch plugin
 
 
 
-This opens [[https://www.google.com/search?q=oh-my-zsh+websearch+plugin](https://www.google.com/search?q=oh-my-zsh+websearch+plugin)](https://www.google.com/search?q=oh-my-zsh+websearch+plugin%5D(https://www.google.com/search?q=oh-my-zsh+websearch+plugin)) in your browser. Neat!
+This opens [Oh my Zsh, websearch pluigin](https://www.google.com/search?q=oh-my-zsh+websearch+plugin) in your browser. Neat!
 
 
 
@@ -420,7 +420,7 @@ stackoverflow node installation
 
 You get the idea!
 
-[Full details here.]([https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search) "web-search plugin")
+[Full details here.](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)
 
 
 
@@ -436,7 +436,7 @@ Shortcuts to open VS Code:
 
 ####  asdf
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf))
+[Also known as "The one true package manager"](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf)
 
 Forget rvm, rbenv, nvm, pyenv, kiex or what-have-you - asdf manages all that, and better!
 
@@ -458,32 +458,32 @@ For example,
 
 
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker))
+[Docker on ZSH](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose))
+[Docker Compose, as well](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose)
 
 #### git
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git))
+[Zsh and the art of git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
 
 #### github
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github))
+[Github on Zsh!](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github)
 
 #### ruby
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails))
+[Ruby Zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ruby)
 
 #### rails
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails))
+[Zsh on Rails](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails)
 
 #### bundler
 
-[[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler%5D(https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler))
+[Bundler](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler)
 
 #### node
-
+[Node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/node)
 
 
 # Set up Git Workflow
@@ -496,28 +496,25 @@ I like to separate my projects under directories based on language. I’m adding
 
 
 
-TODO: Nikki wtf does this not work?! Plz fix
-
-
+      
 
 ```bash
 
-mkdir workspace && cd workspace && \
+mkdir workspace && cd workspace &&\
+mkdir ruby && \
+mkdir rails && \
+mkdir js && \
+mkdir vue && \
+mkdir elixir && \
+mkdir elm && \
+mkdir python
+```
 
-      mkdir ruby && \
+It should be noted that in zsh, you'll get this kind of response:
+``` bash
 
-      mkdir rails && \
-
-      mkdir js && \
-
-      mkdir vue && \
-
-      mkdir elixir && \
-
-      mkdir elm && \
-
-      mkdir python
-
+**➜** **workspace** mkdir workspace && cd workspace &&\
+cmdand cmdand> mkdir ruby &&
 ```
 
 
@@ -538,7 +535,7 @@ If you’d like to separate your work/personal accounts, you came to the right p
 
 
 
- [This Github SSH guide ]([https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) "Set up your ssh keys") has been my go-to place for SSH key setup until I learned it by heart! Just kidding, I never did
+ [This Github SSH guide ](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) has been my go-to place for SSH key setup until I learned it by heart! Just kidding, I never did
 
 
 
@@ -557,11 +554,8 @@ For security reasons, you need to set permissions on the generated private keys:
 ```bash
 
 sudo chmod 600 ~/.ssh/id_rsa_clark_kent \
-
-  && chmod 600 ~/.ssh/id_rsa_trinity \
-
-  && chmod 600 ~/.ssh/id_rsa_miatrinity
-
+&& chmod 600 ~/.ssh/id_rsa_trinity \
+&& chmod 600 ~/.ssh/id_rsa_miatrinity
 ```
 
 
@@ -790,7 +784,7 @@ precmd() {    
 
 
 
-Using zsh’s [precmd() hook]([http://zsh.sourceforge.net/Doc/Release/Functions.html](http://zsh.sourceforge.net/Doc/Release/Functions.html) "ZSH functions"), I’m setting the identity automatically:
+Using zsh’s [precmd() hook]((http://zsh.sourceforge.net/Doc/Release/Functions.html), I’m setting the identity automatically:
 
 * if I’m in a git directory (why bother otherwise)
 
@@ -998,7 +992,7 @@ Open a new terminal window, type `l` or `ll`, and watch the magic.
 
 
 
-[[https://github.com/athityakumar/colorls](https://github.com/athityakumar/colorls)](https://github.com/athityakumar/colorls%5D(https://github.com/athityakumar/colorls))
+[https://github.com/athityakumar/colorls](https://github.com/athityakumar/colorls)
 
 
 
@@ -1006,15 +1000,15 @@ Open a new terminal window, type `l` or `ll`, and watch the magic.
 
 
 
-[[https://calebporzio.com/my-vs-code-setup-2](https://calebporzio.com/my-vs-code-setup-2)](https://calebporzio.com/my-vs-code-setup-2%5D(https://calebporzio.com/my-vs-code-setup-2))
+[https://calebporzio.com/my-vs-code-setup-2](https://calebporzio.com/my-vs-code-setup-2)
 
-[[https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums%5D(https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums))
+[Fix VS Code Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
 
 
 
 ## Configuration
 
-1. Install [Custom CSS and JS loader]([https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) "Custom CSS Extension").
+1. Install [Custom CSS and JS loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css).
 
 2. Add this to `settings.json`
 
@@ -1058,9 +1052,9 @@ sudo chown -R $(whoami) "/Applications/Visual Studio Code.app/Contents/MacOS/Ele
 
 # Setting up git, GitHub, hub flow
 
-[[https://stackoverflow.com/questions/33315856/setting-visual-studio-code-as-my-macs-default-editor-including-editing-git-com/35782566#35782566](https://stackoverflow.com/questions/33315856/setting-visual-studio-code-as-my-macs-default-editor-including-editing-git-com/35782566#35782566)](https://stackoverflow.com/questions/33315856/setting-visual-studio-code-as-my-macs-default-editor-including-editing-git-com/35782566#35782566%5D(https://stackoverflow.com/questions/33315856/setting-visual-studio-code-as-my-macs-default-editor-including-editing-git-com/35782566%2335782566))
+[Visual Studio Code as my Mac's default  Editor and git coms](https://stackoverflow.com/questions/33315856/setting-visual-studio-code-as-my-macs-default-editor-including-editing-git-com/35782566#35782566)
 
-[[https://github.com/github/hub/tree/master/etc](https://github.com/github/hub/tree/master/etc)](https://github.com/github/hub/tree/master/etc%5D(https://github.com/github/hub/tree/master/etc))
+[CLI Hub autocomplete](https://github.com/github/hub/tree/master/etc)
 
 
 
@@ -1128,13 +1122,13 @@ Now you can just use `rails` (or `rspec`, or any other binstub in the current di
 
 ## Solargraph Extra Setup
 
-[[https://github.com/castwide/solargraph/issues/188](https://github.com/castwide/solargraph/issues/188)](https://github.com/castwide/solargraph/issues/188%5D(https://github.com/castwide/solargraph/issues/188))
+[Solargraph Limitations](https://github.com/castwide/solargraph/issues/188)
 
-[[https://gist.github.com/castwide/28b349566a223dfb439a337aea29713e](https://gist.github.com/castwide/28b349566a223dfb439a337aea29713e)](https://gist.github.com/castwide/28b349566a223dfb439a337aea29713e%5D(https://gist.github.com/castwide/28b349566a223dfb439a337aea29713e))
+[Castwide](https://gist.github.com/castwide/28b349566a223dfb439a337aea29713e)
 
-[[https://www.youtube.com/watch?v=xUBKXqhBKk8](https://www.youtube.com/watch?v=xUBKXqhBKk8)](https://www.youtube.com/watch?v=xUBKXqhBKk8%5D(https://www.youtube.com/watch?v=xUBKXqhBKk8))
+[Solargraph and VS Code](https://www.youtube.com/watch?v=xUBKXqhBKk8)
 
-[[https://dev.to/andrewmcodes/ruby-on-rails-development-with-vs-code-p1i](https://dev.to/andrewmcodes/ruby-on-rails-development-with-vs-code-p1i)](https://dev.to/andrewmcodes/ruby-on-rails-development-with-vs-code-p1i%5D(https://dev.to/andrewmcodes/ruby-on-rails-development-with-vs-code-p1i))
+[Ruby on Rails Development with VS Code](https://dev.to/andrewmcodes/ruby-on-rails-development-with-vs-code-p1i)
 
 Solargraph works pretty well OOTB, but there’s still some juice we can squeeze out of it to make it even more awesome!
 
@@ -1187,14 +1181,18 @@ yard gems
 # Create dotfiles repo
 
 TODO: I'm so clueless here, would need more time (hahahaha) to figure it out... so please help me out here
+-It's a really cool use of dotfiles, I've been committing some study time to it, takes a moment to wrap your hand around it. 
+-N
+TODO: adding an explanation blurb and some examples
 
-[[https://github.com/driesvints/dotfiles](https://github.com/driesvints/dotfiles)](https://github.com/driesvints/dotfiles%5D(https://github.com/driesvints/dotfiles))
+
+[Dot Files for Mac Maintenance](https://github.com/driesvints/dotfiles)
 
 
 
 It would be a shame to lose all this work due to a force majeure (HDD crash, lost laptop etc) so let’s store it in a dotfiles repo.
 
-1. Create a new repository called dotfiles (Here’s [my dotfiles repository]([https://github.com/trinitytakei/dotfiles](https://github.com/trinitytakei/dotfiles) "My dotfiles repository"))
+1. Create a new repository called dotfiles (Here’s [my dotfiles repository](https://github.com/trinitytakei/dotfiles))
 
 2. Clone it to your local drive:
 
@@ -1252,6 +1250,6 @@ ln -nfs /Users/miatrinity/workspace/dotfiles/.p10k.zsh /Users/miatrinity/.p10k.z
 
 # Misc
 
-[[https://dev.to/andrewmcodes/run-rubocop-with-github-actions-4adp](https://dev.to/andrewmcodes/run-rubocop-with-github-actions-4adp)](https://dev.to/andrewmcodes/run-rubocop-with-github-actions-4adp%5D(https://dev.to/andrewmcodes/run-rubocop-with-github-actions-4adp))
+[Rubocop Linter with Github Actions](https://dev.to/andrewmcodes/run-rubocop-with-github-actions-4adp)
 
-[[https://gist.github.com/wbotelhos/fb865fba2b4f3518c8e533c7487d5354](https://gist.github.com/wbotelhos/fb865fba2b4f3518c8e533c7487d5354)](https://gist.github.com/wbotelhos/fb865fba2b4f3518c8e533c7487d5354%5D(https://gist.github.com/wbotelhos/fb865fba2b4f3518c8e533c7487d5354))
+[Side Kiq](https://gist.github.com/wbotelhos/fb865fba2b4f3518c8e533c7487d5354)
