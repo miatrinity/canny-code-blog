@@ -57,7 +57,15 @@ So what's the catch? Spoiler alert: there ain't one!
 
 Soon enough, the chatter changes from 'Rails doesn't scale' to straight-up FOMO.
 
-Seeing a bunch of excited people come together to share their passion for Ruby on Rails, THE damn best full-stack framework for rapid prototyping and running a SaaS while having immense fun (Hanging out at rooftop bars with an Acropolis view? Island hopping? Gorging on Greek food like Zeus on a cheat day?) - what's not to love?
+Seeing a bunch of excited people come together to share their passion for Ruby on Rails, THE damn best full-stack framework for rapid prototyping and running a SaaS while having immense fun!
+
+Roaming rooftop bars with an Acropolis view, like Dionysus on a winery tour in the clouds? [Andrew](https://twitter.com/andrewculver) to the rescue.
+
+Island hopping like Odysseus on a caffeine-fueled odyssey? [Adrian](https://twitter.com/adrianthedev) has always something up his sleeve.
+
+Gorging on Greek food like Zeus on a cheat day? [Petros](https://twitter.com/amiridis) is your man.
+
+What's not to love?
 
 ![good times in Athens](/images/good-vibes-athens.png)
 
