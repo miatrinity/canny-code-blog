@@ -47,11 +47,11 @@ Late to the party? Sure, but they're here and they're about to bring the house d
 We just wrapped up the Ruby on Rails SaaS Conference in Athens, and I'm here to talk about my experience.
 ## The Recipe
 
-* Choose a niche, something Goldilocks would approve - not too big, not too small, just right. For example "Ruby on Rails gurus tackling SaaS"
-* Snag an A-list venue. A [hotel](https://www.electrahotels.gr/hotels/electra-metropolis-athens) in a vibrant neighborhood in Athens, with a direct view of the Acropolis works! (who would have tought?!)
-* Reel in some no-BS speakers straight from the trenches
-* Add top-notch video wizards to capture the magic
-* [Slap the final cut on YouTube](https://www.youtube.com/@railssaas), gratis
+* **Choose a niche** Something Goldilocks would approve - not too big, not too small, just right. For example "Ruby on Rails gurus tackling SaaS"
+* **Snag an A-list venue**. A [hotel](https://www.electrahotels.gr/hotels/electra-metropolis-athens) in a vibrant neighborhood in Athens, with a direct view of the Acropolis works! (who would have tought?!)
+* **Reel in some no-BS speakers** Straight from the trenches.
+* **Add top-notch video wizards** to capture the magic.
+* **[Slap the final cut on YouTube](https://www.youtube.com/@railssaas)** Gratis!
 
 So what's the catch? Spoiler alert: there ain't one!
 
@@ -77,6 +77,8 @@ Moar please!
 * **Community Building**: The organizers went out of their way to make sure no one eats or sits in the corner alone.
 * **Free Photoshooting**: Felt like a Vanity Fair cover gig without the designer threads.
 * **Rewards**: Look, I enjoy seeing tenderlove perform live as much as the next person. It's like standup comedy with a RoR twist! Same for other Rails heavyweights. But recognizing less visible members of the community, toiling their asses off in the background - HELL Yeah! (Grüezi, Marco! Hallo, Julian! Bon dia, Xavi!)
+
+![Image credits: https://twitter.com/marcoroth_, https://twitter.com/julian_rubisch ,https://twitter.com/fxn](/images/rails-saas-rewards.jpg)
 
 I'm pumped up like a kid on a sugar rush.
 
@@ -115,7 +117,9 @@ Ladies first!
 Onto the dudes!
 
 **Adam**'s MC skills were top-shelf and he's as approachable as a friendly barista. Didn't get to shoot the breeze much - but there's always next time, &lt;switch on OZ accent&gt; _mate_!
+
 **Tom** not only did nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
+
 **Andrew** - duh. I'm pretty sure the Energizer bunny was modeled after this dude. High-voltage vibes, round the clock. Much love for pulling this off, man!
 
 ## Until Next Time...
