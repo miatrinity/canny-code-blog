@@ -40,7 +40,7 @@ It's bananas to consider that Europe, the homeland of [Rails's creator](https://
 
 Until now.
 
-2023 said 'hold my beer,' and bam - not one, but TWO kickass Rails conferences popped up: [Rails SaaS](https://railssaas.com/) and [Rails World](https://rubyonrails.org/world).
+2023 said 'hold my beer,' and bam - not one, but TWO kickass Rails conferences popped up in Europe: [Rails SaaS](https://railssaas.com/) and [Rails World](https://rubyonrails.org/world).
 
 Late to the party? Sure, but they're here and they're about to bring the house down!
 
