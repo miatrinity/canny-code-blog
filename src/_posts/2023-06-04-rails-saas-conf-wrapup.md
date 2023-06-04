@@ -99,7 +99,7 @@ Thus, this is more of a brainstorming - and no bad ideas in brainstorming, right
 * **Let's get the party started early** - kick-start that Slack chat before the conference. Encourage people to tell fun facts/tidbits about themselves (on top of the obvious info - like what are they working on.) Sets up conversations smoother than a jazz lounge track.
 * **Show and tell schedule** - Yeah, I know it's as fickle as a cat with a laser pointer, but a rough timeline early on would be sweet. Speaker line up, food times, after-conf activities, that sort of stuff
 * **Team play** - Let's make sure no one's riding solo. Maybe a speed-dating-style mixer? Just less awkward.
-* **Future forecast** - "Prediction is very difficult, especially if it's about the future". But. If there's a hint of a fun event, drop a line! If I'd known about that Saturday island-hopping gig, I would've stayed put.
+* **Future forecast** - "Prediction is very difficult, especially if it's about the future". But. If there's a hint of a fun event, drop a line! If I'd known about that Saturday island-hopping gig earlier, I would've stayed put.
 * **The foodie fight** - Sure, meal times at these things can resemble a mosh pit, but that doesn't mean we can't try to elevate our game and try to make it a wee bit more organized.
 * **New kid on the block** - RailsConf nailed it with a 'first-timer' badge. Made them easy to spot so we could swoop in and play welcoming committee.
 * **Wing(wo)man system** - think 'new kid badge' v2.0
