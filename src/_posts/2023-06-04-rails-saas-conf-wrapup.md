@@ -26,7 +26,7 @@ Oh hey, I managed to start the blogpost after all! Game on! 😎
 
 Back in the early 2000s, I used to be your typical bored-outta-my-skull Java programmer, stuck in a soul-sucking 9-5 cubicle nightmare situation, where the highlight of my day was clock-watching.
 
-Then Ruby, Ruby on Rails, and Getting Real came along. They turned my life upside down basically overnight.
+Then Ruby, Ruby on Rails, and [Getting Real](https://basecamp.com/gettingreal) came along. They turned my life upside down basically overnight.
 
 I'm suddenly globe-trotting, working remotely, coding Ruby on Rails and having the time of my life. So thrilling, I couldn't help but blog about it non-stop, like a teenager with a new crush.
 
@@ -56,6 +56,7 @@ We just wrapped up the Ruby on Rails SaaS Conference in Athens, and I'm here to 
 So what's the catch? Spoiler alert: there ain't one!
 
 Soon enough, the chatter changes from 'Rails doesn't scale' to straight-up FOMO.
+
 Seeing a bunch of excited people come together to share their passion for Ruby on Rails, THE damn best full-stack framework for rapid prototyping and running a SaaS while having immense fun (Hanging out at rooftop bars with an Acropolis view? Island hopping? Gorging on Greek food like Zeus on a cheat day?) - what's not to love?
 
 Veni, vidi, vibed.
@@ -65,7 +66,7 @@ I'm sold.
 This shit _works_!
 
 Moar please!
-## The Good, the Bette§r, and the out-of-this-(Rails)-world!
+## The Good, the Better, and the out-of-this-(Rails)-world!
 
 * **Speakers**: We had everything from hustlers still earning their beachside mojitos to high-rollers who could retire yesterday, all bound by one superpower: they know their SaaS game.
 * **Real talk**: Cut the crap, get real, and make it useful was the mantra. More than one attendee I talked to was like, 'Whoa, I'm wrestling that exact issue right now!'
@@ -86,17 +87,19 @@ Biting my nails for the encore, folks!
 ## Future Ideas
 
 Some of these ideas are not Rails SaaS conf specific.
+
 Some of them might be difficult, time consuming, or even impractical to implement.
+
 Thus, this is more of a brainstorming - and no bad ideas in brainstorming, right?
 
-* **Let's get the party started early** - kick-start that Slack chat before the conference. Encourage people to tell fun facts/tidbits about themselves (on top of the obvious info - like what are they working on etc.) Sets up conversations smoother than a jazz lounge track.
+* **Let's get the party started early** - kick-start that Slack chat before the conference. Encourage people to tell fun facts/tidbits about themselves (on top of the obvious info - like what are they working on.) Sets up conversations smoother than a jazz lounge track.
 * **Show and tell schedule** - Yeah, I know it's as fickle as a cat with a laser pointer, but a rough timeline early on would be sweet. Speaker line up, food times, after-conf activities, that sort of stuff
 * **Team play** - Let's make sure no one's riding solo. Maybe a speed-dating-style mixer? Just less awkward.
 * **Future forecast** - "Prediction is very difficult, especially if it's about the future". But. If there's a hint of a fun event, drop a line! If I'd known about that Saturday island-hopping gig, I would've stayed put.
-* **The foodie fight** - Sure, meal times at these things can resemble a mosh pit, butthat doesn't mean we can't try to elevate our game and try to make it a wee bit more organized.
+* **The foodie fight** - Sure, meal times at these things can resemble a mosh pit, but that doesn't mean we can't try to elevate our game and try to make it a wee bit more organized.
 * **New kid on the block** - RailsConf nailed it with a 'first-timer' badge. Made them easy to spot so we could swoop in and play welcoming committee.
 * **Wing(wo)man system** - think 'new kid badge' v2.0
-* **hallway track** - Looks like I was the only one taking it seriously! LOL.
+* **hallway track** - Looks like I was the only one taking it seriously! LOL. Make it more official/prominent.
 * **post-conf hookup** - encourage people to connect, follow up, and keep up the convo. A dedicated slack channel, where everyone can drop their info/socials might help.
 
 I'm working on an app to address some of the above points. Using bullet train and Avo, of course. More on that later.
@@ -105,18 +108,20 @@ I'm working on an app to address some of the above points. Using bullet train an
 
 Ladies first!
 
-Carly! I know firsthand that 'behind every successful man, there's a kickass woman' ain't no joke. I'm a grade-A, certified loony, and my wife's patience with me is nothing short of miraculous. We're a dynamic duo, just like you and Andrew. Keep on keeping on!
-Vanesa and Emily. who would've guessed they are the new kids on the block? More like event-planning ninjas, making it all look like a walk in the park.
+**Carly**! I know firsthand that 'behind every successful man, there's a kickass woman' ain't no joke. I'm a grade-A, certified loony, and my wife's patience with me is nothing short of miraculous. We're a dynamic duo, just like you and Andrew. Keep on keeping on!
+
+**Vanesa and Emily**. Who would've guessed they are the new kids on the block? More like event-planning ninjas, making it all look like a walk in the park.
 
 Onto the dudes!
 
-Adam's MC skills were top-shelf and he's as approachable as a friendly barista. Didn't get to shoot the breeze much - but there's always next time, <switch on OZ accent> _mate_!
-Tom not only did nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
-Andrew - duh. I'm pretty sure the Energizer bunny was modeled after this dude. High-voltage vibes, round the clock. Much love for pulling this off, man!
+**Adam**'s MC skills were top-shelf and he's as approachable as a friendly barista. Didn't get to shoot the breeze much - but there's always next time, <switch on OZ accent> _mate_!
+**Tom** not only did nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
+**Andrew** - duh. I'm pretty sure the Energizer bunny was modeled after this dude. High-voltage vibes, round the clock. Much love for pulling this off, man!
 
 ## Outro
 
 Is the Rails SaaS conf everyone's cup of tea? Nah. But if you are an indie maker, creator, bootstrapper, involved, interested in or just curious about the Rails SaaS scene, odds are, you're gonna dig it.
+
 Did it hit the bullseye? Maybe not quite. But if there's a squad with the grit and gumption to polish this gem to perfection, it's the folks running the Rails SaaS Conf show.
 
 Rails is not only not dead - It's taking Europe (an the world) by storm.
