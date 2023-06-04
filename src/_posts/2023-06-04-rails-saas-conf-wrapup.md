@@ -103,7 +103,7 @@ Thus, this is more of a brainstorming - and no bad ideas in brainstorming, right
 * **The foodie fight** - Sure, meal times at these things can resemble a mosh pit, but that doesn't mean we can't try to elevate our game and try to make it a wee bit more organized.
 * **New kid on the block** - RailsConf nailed it with a 'first-timer' badge. Made them easy to spot so we could swoop in and play welcoming committee.
 * **Wing(wo)man system** - think 'new kid badge' v2.0
-* **Hallway track** - Looks like I was the only one taking it seriously! LOL. Make it more official/prominent.
+* **Hallway track** - Looks like I was the only one taking it seriously! LOL. Make it more official/prominent. Had a long and awesome discussion with [Alex](https://twitter.com/alexjeser) who suggested discussing all sorts of diverse topics one-on-one, or small groups could be a separate event (to evite FOMO). I concur.
 * **Post-conf hookup** - encourage people to connect, follow up, and keep up the convo. A dedicated slack channel, where everyone can drop their info/socials might help.
 
 I'm working on an app to address some of the above points. Using [Bullet Train](https://bullettrain.co/) and [Avo](https://avohq.io/), of course. More on that later.
