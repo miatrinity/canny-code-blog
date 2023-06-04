@@ -59,6 +59,8 @@ Soon enough, the chatter changes from 'Rails doesn't scale' to straight-up FOMO.
 
 Seeing a bunch of excited people come together to share their passion for Ruby on Rails, THE damn best full-stack framework for rapid prototyping and running a SaaS while having immense fun (Hanging out at rooftop bars with an Acropolis view? Island hopping? Gorging on Greek food like Zeus on a cheat day?) - what's not to love?
 
+![good times in Athens](/images/good-vibes-athens.png)
+
 Veni, vidi, vibed.
 
 I'm sold.
