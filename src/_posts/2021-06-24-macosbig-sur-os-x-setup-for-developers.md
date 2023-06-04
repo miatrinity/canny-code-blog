@@ -11,113 +11,54 @@ tags:
 
 # Hackintosh Setup  - OS X
 
-[Terminal Makeover](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)
-
-[Zsh installation and configuration](https://thevaluable.dev/zsh-install-configure/)
-
-[Dot Files and why you need them](https://github.com/swrobel/dotfiles)
-
-[Macbook like a pro](https://medium.com/responsetap-engineering/macbook-like-a-pro-606682ea22bd)
-
-[5 Types of Zsh aliases](https://thorsten-hans.com/5-types-of-zsh-aliases)
-
-
-
-
-
-
-
 Ahh, the incomparable feeling of logging in to your new Mac for the first time. So uncluttered, so pristine, so shiny.
 
 ![ahh the feeling of a new Mac](/images/mac-candle.jpg)
 
 Alas, not very useful without a bit (ok, a metric shit-ton) of set up and polishing! To get any measurable mileage out of your new baby, you will need to:
 
-
-
 * Install the tools of your choice (the easy(er) part)
-
 * Tweak and fine-tune them to perfection (the not-so-easy part)
-
-
 
 It can be a daunting task, especially if you are doing it for the first time!
 
-
-
 But even seasoned veterans might wonder:
 
-
-
 * is there a better tool for X (your choice since the 90s)?
-
 * Imma need something for Y, should I pick: foo, bar, or baz? I think fred (or was it waldo?) someone mentioned plug (or was it thud?)
-
 * Screw analysis paralysis, I’m going with Z. Now, how do I become a productivity/code/CLI beast utilizing it effectively?
-
-
 
 Fear not, I have been in both places, and I’m tired of figuring it all out for the umpteenth time! I created this guide for my future self, and I believe you can benefit from it too!
 
-
-
 This tutorial assumes you are on OS X Big Sur, but it should work for older version as well, with minimal tweaks (eg Catalina/Big Sur ships with zsh out of the box, so this tutorial doesn’t include switching from bash to zsh).
-
-
 
 I’m primarily a Ruby and Rails developer, so there are going to be some Ruby-specific parts (and a smattering of other stuff I’m working with: Javascript, Node, Elm, Elixir, Python).
 
-
-
-However, I’m trying to be as language- and framework agnostic as possible. Ruby doesn’t float your boat? Ignore those parts. Hate docker? Ditto. Think emacs/vim \>\> VS Code? I’m even going to add a convenient link for you to jump to the next section! (TODO: actually ad those links, they are not there righ now IIRC)
-
-
+However, I’m trying to be as language- and framework agnostic as possible. Ruby doesn’t float your boat? Ignore those parts. Hate docker? Ditto. Think emacs/vim \>\> VS Code? Feel free to jump to the next section! 
 
 All right, enough rambling - let’s kick the tires and light the fires!
 
-
-
 ## Install and Set up homebrew
-
-
 
 ### Pre-flight notes
 
 It’s very possible that you’d like to set up your new machine based on your current/old system. If that’s the case, `brew leaves` is your friend!
 
-
-
 Rather than running `brew list`, which shows you ALL the packages installed by brew,  `brew leaves` lists ONLY the packages you have installed yourself.
-
-
 
 > But that way, imma forget bdw-gc, isl@0.12 or p11-kit! To say nothing of mpfr@2 and libmpc!
 
-
-
 … said no one ever.
-
-
 
 tl;dr: `brew leaves` lists only the packages you’ll _potentially_ want to transfer to your new shiny Mac.
 
-
-
 Why _potentially_, you ask. IT TOOK ME YEARS OF CAREFUL CURATION TO CRAFT THE PERFECT LIBRARY OF HAND-PICKED BESTEST TOOLS, you scream.
-
-
 
 I hear you, and I’m not here to pry those fantastic tools from your not-cold-and-not-dead hands! That said, let me present two plausible reasons for skipping some packages:
 
-
-
 * **languages and their version managers** (erlang, elixir, python, pyenv, ruby, rubyenv, rvm, node, nvm, npm, but even MySQL and Postgres…): We are going to use one package to rule them all: _asdf_. Behind the unassuming name hides an underrated, powerful and clean tool that’s better than the sum of your previous tooling’s parts. Trust me on this one.
 
-* **accumulated cruft**: A short, non-exhaustive list to give you an idea: cowsay, ponysay, cowthink, sl (steam locomotive), aafire, dog (‘better than cat’), cmatrix, rig, oneko, asciiquarium, funny-manpages. I can’t be the only one who installed one or more of these on a whim to goof around, only to forget about them later
-
-
-
-.
+* **accumulated cruft**: A short, non-exhaustive list to give you an idea: cowsay, ponysay, cowthink, sl (steam locomotive), aafire, dog (‘better than cat’), cmatrix, rig, oneko, asciiquarium, funny-manpages. I can’t be the only one who installed one or more of these on a whim to goof around, only to forget about them later.
 
 Now, the worst part is not even the existence of the top level packages, but potential issues with their dependencies (I remember spending 3 hours on fixing `readline` after I installed `asciinema`, which somehow screwed up other packages depending on `readline`).
 
@@ -125,24 +66,15 @@ Maybe, just maybe, you’ll want to ignore some of these. Or maybe there are som
 
 tl;dr: take only what’s needed!
 
-
-
-
-
 Ready, steady…
-
-
 
 ### Install homebrew
 
-
-
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-
+Follow instructions (TODO: brew-after pic)
 
 `brew update`
-
 
 
 ### Install CLI packages with brew
@@ -150,11 +82,13 @@ Ready, steady…
 ``` bash
 
 brew install \
+  autoconf \
   coreutils \
   make \
   autoconf \
   gnupg \
   git \
+  gnupg \
   docker \
   docker-compose \
   docker-machine \
@@ -164,12 +98,13 @@ brew install \
   brave-browser \
   firefox \
   iterm2 \
+  jq \
+  thefuck \
+  the_silver_searcher \
   telegram \
   setapp
 
 ```
-
-
 
 ## Set up the Shell
 
@@ -181,7 +116,7 @@ TODO pic - standard apple vs Oh My Zsh
 
 ```bash
 
-sh -c "$(curl -fsSL [https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ```
 Run the following to fix some permissions
@@ -194,7 +129,7 @@ compaudit | xargs chmod g-w,o-w
 
 ### Set up a theme
 
-Recommended: [Powerlevel10k theme for oh-my-zsh](https://github.com/romkatv/powerlevel10k) "
+Recommended: [Powerlevel10k theme for oh-my-zsh](https://github.com/romkatv/powerlevel10k) 
 
 
 
@@ -202,7 +137,8 @@ Install with
 
 ```bash
 
-git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) $ZSH_CUSTOM/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 ```
 
