@@ -47,11 +47,11 @@ Late to the party? Sure, but they're here and they're about to bring the house d
 We just wrapped up the Ruby on Rails SaaS Conference in Athens, and I'm here to talk about my experience.
 ## The Recipe
 
-* **Choose a niche** Something Goldilocks would approve - not too big, not too small, just right. For example "Ruby on Rails gurus tackling SaaS"
+* **Choose a niche**. Something Goldilocks would approve - not too big, not too small, just right. For example "Ruby on Rails gurus tackling SaaS"
 * **Snag an A-list venue**. A [hotel](https://www.electrahotels.gr/hotels/electra-metropolis-athens) in a vibrant neighborhood in Athens, with a direct view of the Acropolis works! (who would have tought?!)
-* **Reel in some no-BS speakers** Straight from the trenches.
+* **Reel in some no-BS speakers**. Straight from the trenches.
 * **Add top-notch video wizards** to capture the magic.
-* **[Slap the final cut on YouTube](https://www.youtube.com/@railssaas)** Gratis!
+* **[Slap the final cut on YouTube](https://www.youtube.com/@railssaas)**. Gratis!
 
 So what's the catch? Spoiler alert: there ain't one!
 
@@ -108,7 +108,7 @@ I'm working on an app to address some of the above points. Using [Bullet Train](
 
 ## Credits
 
-Ladies first!
+Ladies first.
 
 **Carly**! I know firsthand that 'behind every successful man, there's a kickass woman' ain't no joke. I'm a grade-A, certified loony, and my wife's patience with me is nothing short of miraculous. We're a dynamic duo, just like you and Andrew. Keep on keeping on!
 
@@ -116,7 +116,7 @@ Ladies first!
 
 Onto the dudes!
 
-**Adam**'s MC skills were top-shelf and he's as approachable as a friendly barista. Didn't get to shoot the breeze much - but there's always next time, &lt;switch on OZ accent&gt; _mate_!
+**Adam**'s MC skills were top-shelf and he's as approachable as a friendly barista. Didn't get to shoot the breeze much - but there's always next time, &lt;switch on OZ accent&gt; _mate!_
 
 **Tom** not only did nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
 
@@ -128,7 +128,7 @@ Is the Rails SaaS conf everyone's cup of tea? Nah. But if you are an indie maker
 
 Did it hit the bullseye? Maybe not quite. But if there's a squad with the grit and gumption to polish this gem to perfection, it's the folks running the Rails SaaS Conf show.
 
-Rails is not only not dead - It's taking Europe (an the world) by storm.
+Rails is not only _not_ dead - It's taking Europe (an the world) by storm.
 
 I'm buckled up and ready for this bullet train ride.
 
