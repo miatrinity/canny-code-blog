@@ -118,7 +118,7 @@ Onto the dudes!
 **Tom** not only did nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
 **Andrew** - duh. I'm pretty sure the Energizer bunny was modeled after this dude. High-voltage vibes, round the clock. Much love for pulling this off, man!
 
-## Outro
+## Until Next Time...
 
 Is the Rails SaaS conf everyone's cup of tea? Nah. But if you are an indie maker, creator, bootstrapper, involved, interested in or just curious about the Rails SaaS scene, odds are, you're gonna dig it.
 
