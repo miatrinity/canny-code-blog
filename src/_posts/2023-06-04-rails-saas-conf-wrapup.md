@@ -13,23 +13,34 @@ tags:
 ## Hello, World (again)!
 
 It happens very rarely that I don't know how to start a blogpost.
+
 Normally, I can't shut up when it comes to writing. Like a bad date, I just keep on blabbing.
+
 However, the Ruby on Rails SaaS conference left me as tongue-tied as a politician on truth serum.
+
 This event didn't just raise the bar. I drop-kicked it into the stratosphere!
 
 Oh hey, I managed to start the blogpost after all! Game on! 😎
 
+---
+
 Back in the early 2000s, I used to be your typical bored-outta-my-skull Java programmer, stuck in a soul-sucking 9-5 cubicle nightmare situation, where the highlight of my day was clock-watching.
+
 Then Ruby, Ruby on Rails, and Getting Real came along. They turned my life upside down basically overnight.
+
 I'm suddenly globe-trotting, working remotely, coding Ruby on Rails and having the time of my life. So thrilling, I couldn't help but blog about it non-stop, like a teenager with a new crush.
 
 Then life happened, and I took a little breather from the blogosphere for, oh... about FOURTEEN years. Yeah, 14. One-four.
 Not even crypto, AI, or ChatGPT could get my keyboard smoking again, especially with every Tom, Dick, and Harry's grandpa chattering about them.
 
 But hold onto your hats, folks - the thrill is back and it's got a €uro accent.
+
 It's bananas to consider that Europe, the homeland of Rails's creator and a truckload of Rails devs, didn't have a dedicated Rails conference. Ever.
+
 Until now.
+
 2023 said 'hold my beer,' and bam - not one, but TWO kickass Rails conferences popped up: Ruby on Rails SaaS and Rails World.
+
 Late to the party? Sure, but they're here and they're about to bring the house down!
 
 We just wrapped up the Ruby on Rails SaaS Conference in Athens, and I'm here to talk about my experience.
