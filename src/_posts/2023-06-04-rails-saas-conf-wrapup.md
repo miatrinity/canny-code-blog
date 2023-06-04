@@ -48,7 +48,7 @@ We just wrapped up the Ruby on Rails SaaS Conference in Athens, and I'm here to 
 ## The Recipe
 
 * **Choose a niche**. Something Goldilocks would approve - not too big, not too small, just right. For example "Ruby on Rails gurus tackling SaaS"
-* **Snag an A-list venue**. A [hotel](https://www.electrahotels.gr/hotels/electra-metropolis-athens) in the vibrant [Plaka neighborhood of Athens](https://www.google.com/search?q=plaka+athens), with a direct view of the Acropolis works! (who would have tought?!)
+* **Snag an A-list venue**. A [hotel](https://www.electrahotels.gr/hotels/electra-metropolis-athens) in the vibrant [Plaka neighborhood of Athens](https://www.google.com/search?q=plaka+athens), with a direct view of the Acropolis works (who would have tought?!)
 * **Reel in some no-BS speakers**. Straight from the trenches.
 * **Add top-notch video wizards** to capture the magic.
 * **[Slap the final cut on YouTube](https://www.youtube.com/@railssaas)**. Gratis!
