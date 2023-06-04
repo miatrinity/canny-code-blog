@@ -31,6 +31,7 @@ Then Ruby, Ruby on Rails, and Getting Real came along. They turned my life upsid
 I'm suddenly globe-trotting, working remotely, coding Ruby on Rails and having the time of my life. So thrilling, I couldn't help but blog about it non-stop, like a teenager with a new crush.
 
 Then life happened, and I took a little breather from the blogosphere for, oh... about FOURTEEN years. Yeah, 14. One-four.
+
 Not even crypto, AI, or ChatGPT could get my keyboard smoking again, especially with every Tom, Dick, and Harry's grandpa chattering about them.
 
 But hold onto your hats, folks - the thrill is back and it's got a €uro accent.
@@ -44,7 +45,6 @@ Until now.
 Late to the party? Sure, but they're here and they're about to bring the house down!
 
 We just wrapped up the Ruby on Rails SaaS Conference in Athens, and I'm here to talk about my experience.
-
 ## The Recipe
 
 * Choose a niche, something Goldilocks would approve - not too big, not too small, just right. For example "Ruby on Rails gurus tackling SaaS"
@@ -59,14 +59,13 @@ Soon enough, the chatter changes from 'Rails doesn't scale' to straight-up FOMO.
 Seeing a bunch of excited people come together to share their passion for Ruby on Rails, THE damn best full-stack framework for rapid prototyping and running a SaaS while having immense fun (Hanging out at rooftop bars with an Acropolis view? Island hopping? Gorging on Greek food like Zeus on a cheat day?) - what's not to love?
 
 Veni, vidi, vibed.
+
 I'm sold.
+
 This shit _works_!
 
-<shut up and take my money img>
-
 Moar please!
-
-## The Good, the Better, and the out-of-this-(Rails)-world!
+## The Good, the Bette§r, and the out-of-this-(Rails)-world!
 
 * **Speakers**: We had everything from hustlers still earning their beachside mojitos to high-rollers who could retire yesterday, all bound by one superpower: they know their SaaS game.
 * **Real talk**: Cut the crap, get real, and make it useful was the mantra. More than one attendee I talked to was like, 'Whoa, I'm wrestling that exact issue right now!'
