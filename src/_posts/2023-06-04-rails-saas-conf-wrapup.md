@@ -36,7 +36,7 @@ Not even crypto, AI, or ChatGPT could get my keyboard smoking again, especially 
 
 But hold onto your hats, folks - the thrill is back and it's got a €uro accent.
 
-It's bananas to consider that Europe, the homeland of [Rails's creator](https://dhh.dk/) and a truckload of Rails devs, didn't have a dedicated Rails conference. Ever [1](#footnote1).
+It's bananas to consider that Europe, the homeland of [Rails's creator](https://dhh.dk/) and a truckload of Rails devs, didn't have a dedicated Rails conference. Ever [1](#footnote1){#footnote1-back}
 
 Until now.
 
@@ -160,4 +160,4 @@ Shoutout to _Πέτρος (Petros)_ for serving up that Olympus-worthy feast cap
 
 ### Footnotes
 
-[^footnote1]: Hats off to Andrew Culver for the history lesson - turns out there was a Euro Ruby on Rails conf in 2008. Fine, the Rails SaaS Conf wasn't the trailblazer, but 2008? That's like Zeus's heyday in RoR terms. I reckon my point still got its boots on. [↩](#footnote1)
+[#footnote1]: Hats off to Andrew Culver for the history lesson - turns out there was a Euro Ruby on Rails conf in 2008. Fine, the Rails SaaS Conf wasn't the trailblazer, but 2008? That's like Zeus's heyday in RoR terms. I reckon my point still got its boots on. [↩](#footnote1-back)
