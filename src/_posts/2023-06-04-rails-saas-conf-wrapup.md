@@ -26,7 +26,7 @@ Oh hey, I managed to start the blogpost after all! Game on! 😎
 
 Back in the early 2000s, I used to be your typical bored-outta-my-skull Java programmer, stuck in a soul-sucking 9-5 cubicle nightmare situation, where the highlight of my day was clock-watching.
 
-Then [Ruby](https://www.ruby-lang.org), [Ruby on Rails](https://rubyonrails.org/), and [Getting Real](https://basecamp.com/gettingreal) came along. They turned my life upside down basically overnight.
+Then [Ruby](https://www.ruby-lang.org), [Ruby on Rails](https://rubyonrails.org/), and [Getting Real](https://basecamp.com/gettingreal) came along. They turned my life upside down overnight.
 
 I'm suddenly globe-trotting, working remotely, coding Ruby on Rails and having the time of my life. So thrilling, I couldn't help but blog about it non-stop, like a teenager with a new crush.
 
