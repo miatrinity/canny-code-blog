@@ -146,7 +146,7 @@ You coming?
 
 ---
 
-#### 🙏
+#### My Timeless Thanks
 
 Big ups to the crew who eyeballed my rough cut and dished out some grade A pointers:
 
@@ -160,6 +160,6 @@ Shoutout to _Πέτρος (Petros)_ for serving up that Olympus-worthy feast cap
 
 ---
 
-#### 🦶🗒️
+#### Afterthoughts
 
 <sup id="footnote1">1</sup>: Hats off to Andrew Culver for the history lesson - turns out there was a Euro Ruby on Rails conf in 2008. Fine, the Rails SaaS Conf wasn't the trailblazer, but 2008? That's like Zeus's heyday in RoR terms. I reckon my point still got its boots on. [↩](#footnote1-back)
