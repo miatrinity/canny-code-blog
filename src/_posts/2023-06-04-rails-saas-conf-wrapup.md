@@ -1,8 +1,8 @@
 ---
-title:  "Rails SaaS Conference Wrapup"
+title:  "Rails SaaS Debrief: The Conference that Rewrote the Rulebook"
 # categories: updates
-subtitle: A new Ruby on Rails Conference Σtandard
-description: "Musings on the first European Ruby on Rails SaaS Conference"
+subtitle: "The Ruby on Rails Conference That's Upping the Ante"
+description: "Get in on the Ground Floor: The Rise of the European Rails Conference Circuit You're Not Part of (Yet!)"
 tags:
   - Rails
   - SaaS
@@ -36,7 +36,7 @@ Not even crypto, AI, or ChatGPT could get my keyboard smoking again, especially 
 
 But hold onto your hats, folks - the thrill is back and it's got a €uro accent.
 
-It's bananas to consider that Europe, the homeland of [Rails's creator](https://dhh.dk/) and a truckload of Rails devs, didn't have a dedicated Rails conference. Ever.
+It's bananas to consider that Europe, the homeland of [Rails's creator](https://dhh.dk/) and a truckload of Rails devs, didn't have a dedicated Rails conference. Ever [1](#footnote1).
 
 Until now.
 
@@ -112,7 +112,7 @@ Thus, this is more of a brainstorming - and no bad ideas in brainstorming, right
 * **New kid on the block** - RailsConf nailed it with a 'first-timer' badge. Made them easy to spot so we could swoop in and play welcoming committee.
 * **Wing(wo)man system** - think 'new kid badge' v2.0
 * **Hallway track** - Looks like I was the only one taking it seriously! LOL. Make it more official/prominent. Had a long and awesome discussion with [Alex](https://twitter.com/alexjeser) who suggested discussing all sorts of diverse topics one-on-one, or small groups could be a separate event (to evite FOMO). I concur.
-* **Post-conf hookup** - encourage people to connect, follow up, and keep up the convo. A dedicated slack channel, where everyone can drop their info/socials might help.
+* **Post-conf pow wow** - encourage people to connect, follow up, and keep up the convo. A dedicated slack channel, where everyone can drop their info/socials might help.
 
 I'm working on an app to address some of the above points. Using [Bullet Train](https://bullettrain.co/) and [Avo](https://avohq.io/), of course. More on that later.
 
@@ -124,11 +124,11 @@ Ladies first.
 
 **Vanesa and Emily**. Who would've guessed they are the new kids on the block? More like event-planning ninjas, making it all look like a walk in the park.
 
-Onto the dudes!
+Now the fellas!
 
 **Adam**'s MC skills were top-shelf and he's as approachable as a friendly barista. Didn't get to shoot the breeze much - but there's always next time, &lt;switch on OZ accent&gt; _mate!_
 
-**Tom** not only did nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
+**Tom** not only did he nail his talk, but also went full-on Yoda, offering to share his hard-earned SaaS wisdom with a mastermind group. Boss move!
 
 **Andrew** - duh. I'm pretty sure the Energizer bunny was modeled after this dude. High-voltage vibes, round the clock. Much love for pulling this off, man!
 
@@ -136,10 +136,28 @@ Onto the dudes!
 
 Is the Rails SaaS conf everyone's cup of tea? Nah. But if you are an indie maker, creator, bootstrapper, involved, interested in or just curious about the Rails SaaS scene, odds are, you're gonna dig it.
 
-Did it hit the bullseye? Maybe not quite. But if there's a squad with the grit and gumption to polish this gem to perfection, it's the folks running the Rails SaaS Conf show.
+Did it hit the bullseye? Maybe not quite, but damn close! And if there's a squad with the grit and gumption to polish this gem to perfection, it's the folks running the Rails SaaS Conf show.
 
-Rails is not only _not_ dead - It's taking Europe (an the world) by storm.
+Rails is not only **not-dead** - It's taking Europe (an the world) by storm.
 
 I'm buckled up and ready for this bullet train ride.
 
 You coming?
+
+---
+
+### Thanks
+
+Big ups to the crew who eyeballed my rough cut and dished out some grade A pointers:
+
+_Adrian Marin, Amanda Perino, Andrew Culver, Jorge Manrubia, Julián Cheal, Miles Woodroffe, Nate Hopkins, Petros Amoiridis, Pooria Rashidi, Tom Rossi_
+
+Swiped a couple of snaps from _Adrian_ and _Julián_.
+
+Shoutout to _Πέτρος (Petros)_ for serving up that Olympus-worthy feast captured in the pic! See ya in Thessaloniki, brother.
+
+❤️ ya all!
+
+### Footnotes
+
+[^footnote1]: Hats off to Andrew Culver for the history lesson - turns out there was a Euro Ruby on Rails conf in 2008. Fine, the Rails SaaS Conf wasn't the trailblazer, but 2008? That's like Zeus's heyday in RoR terms. I reckon my point still got its boots on. [↩](#footnote1)
