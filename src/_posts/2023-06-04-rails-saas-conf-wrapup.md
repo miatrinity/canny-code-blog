@@ -152,7 +152,7 @@ Big ups to the crew who eyeballed my rough cut and dished out some grade A point
 
 _Adrian Marin, Amanda Perino, Andrew Culver, Jorge Manrubia, Julián Cheal, Miles Woodroffe, Nate Hopkins, Petros Amoiridis, Pooria Rashidi, Tom Rossi_
 
-Swiped a couple of snaps from _Adrian_ and _Julián_.
+Swiped a couple of snaps from _Adrian Marin_ and _Julián Cheal_, _Xavi Noria_, _Julian Rubisch_, and _Marco Roth_.
 
 Shoutout to _Πέτρος (Petros)_ for serving up that Olympus-worthy feast captured in the pic! See ya in Thessaloniki, brother.
 
