@@ -37,7 +37,7 @@ Then two things happened.
 
 ## When 'meh' Turns Into FOMO
 
-Research and experience show that a CEO's vibe is the company's vibe. Consciously or not, the CEO is the genetic enginner of the company's DNA.
+Research and experience show that a CEO's vibe is the company's vibe. Consciously or not, the CEO is the genetic engineer of the company's DNA.
 
 After two decades of clocking in at all sorts of companies, I cosign: gimme a snapshot of the CEO, I'll sketch you the company culture.
 
