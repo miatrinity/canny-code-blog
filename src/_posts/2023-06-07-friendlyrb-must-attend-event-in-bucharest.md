@@ -67,7 +67,9 @@ I'd bet my last penny there won't be any shortage of that in Bucharest.
 
 To cut to the chase: if a few days of top-notch Ruby talks, good vibes, and quality time with a friendly crew sound like your jam, friendly.rb's the place to be.
 
-I've just locked down my tickets and snagged a sick-looking Airbnb for a steal!
+To put my money where my mouth is, I've just locked down two supporter tickets for Mia and myself, and snagged a sick-looking Airbnb for a steal!
+
+[Grab yours here!](https://friendlyrb.com/#tickets)
 
 Can't wait for the adventure.
 
