@@ -32,9 +32,10 @@ I'd caught wind of friendly.rb before Rails SaaS, but told myself it was too out
 Then two things happened.
 
 1) The conference was a riot, and the folks I met? Top-notch.
-2) Enter Adrian.
 
-## When 'meh' turns into FOMO
+2) Enter [Adrian](https://twitter.com/adrianthedev).
+
+## When 'meh' Turns Into FOMO
 
 Research and experience show that a CEO's vibe is the company's vibe. Consciously or not, the CEO is the genetic enginner of the company's DNA.
 
@@ -52,7 +53,7 @@ And if my gut's right, I'd hate to be anywhere else when it goes down.
 
 ## Who is this dude, again?!
 
-Who's Adrian? What's he about? Doesn't matter much here (but for the curious cats, he's the brain behind [Avo](https://avohq.io/) - give it a whirl, it's all kinds of avosome (pardon fo the horrible pun ¯\_(ツ)_/¯)).
+Who's [Adrian](https://twitter.com/adrianthedev)? What's he about? Doesn't matter much here (but for the curious cats, he's the brain behind [Avo](https://avohq.io/) - give it a whirl, it's all kinds of avosome (pardon fo the horrible pun ¯\\_(ツ)_/¯)).
 
 The crux here is: _how_ Adrian plays his game.
 
